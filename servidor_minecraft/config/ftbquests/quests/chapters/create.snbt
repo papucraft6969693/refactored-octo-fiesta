@@ -1,0 +1,1606 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "2276081CEF43EFAE"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "create:cogwheel"
+	}
+	id: "1BCA0CB09BB444E6"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Create usa la energía de rotación para mover maquinas y mecanismos. Se pueden automatizar una gran cantidad de cosas."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:cogwheel"
+			}
+			id: "355BB0FD3938AA79"
+			rewards: [
+				{
+					id: "6CBA6BE11663DF93"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:goggles"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2C7AE82814A666D8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:builders_tea"
+					}
+					type: "item"
+				}
+				{
+					id: "64CCC7605FACAB67"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:brown_toolbox"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.2d
+			tasks: [{
+				id: "083DC0BEE611AE26"
+				title: "Create"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["355BB0FD3938AA79"]
+			description: ["Es el material básico con el que se hacen las maquinas y componentes más importantes del mod."]
+			id: "0DA2BBB11F658EA7"
+			rewards: [
+				{
+					id: "64E4F4186E78D44C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:wrench"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2F0073AD41DA7A0A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "1CFD4355DE261DC5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:andesite_alloy"
+				}
+				type: "item"
+			}]
+			title: "Aleación de Andesita"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4E543B644EF54B87"]
+			description: ["Las maquinas con las que se hacen la mayoría de recetas del mod."]
+			id: "16CE758B49206D2F"
+			rewards: [
+				{
+					count: 16
+					id: "2C85F4B25E7B1F8E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:gearbox"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "593BB072D9E7C713"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:cogwheel"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4C876699629A9D71"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:large_cogwheel"
+					}
+					type: "item"
+				}
+				{
+					id: "7AA70083DDCB8234"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:shaft"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "293230D1E7D8B5CE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:mechanical_press"
+					}
+					type: "item"
+				}
+				{
+					id: "0560DF1586283F1C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:mechanical_mixer"
+					}
+					type: "item"
+				}
+				{
+					id: "23993A20D1F59640"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:basin"
+					}
+					type: "item"
+				}
+				{
+					id: "7C9CA4819D8F4C0E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:depot"
+					}
+					type: "item"
+				}
+				{
+					id: "6A308EB3D0BA9358"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:deployer"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0C221F6A33728A71"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:andesite_funnel"
+					}
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "5EE2F399973C45D7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:belt_connector"
+					}
+					type: "item"
+				}
+				{
+					id: "03BAAE48CA3C616F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:millstone"
+					}
+					type: "item"
+				}
+				{
+					id: "017F2553BEC92521"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:mechanical_saw"
+					}
+					type: "item"
+				}
+			]
+			title: "Maquinas básicas"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0DA2BBB11F658EA7"]
+			description: ["Generan energía rotacional al girar con agua o lava. La pequeña es más rápida pero tiene menor capacida de estrés y la grande es más lenta pero tiene el doble de capacidad de estrés."]
+			id: "4E543B644EF54B87"
+			rewards: [
+				{
+					id: "69FC33205AA6DABF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:water_bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4C12FFA73D5ECF4E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:shaft"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7FAE2BA3586D8CB7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:large_water_wheel"
+					}
+					type: "item"
+				}
+				{
+					id: "37D5168822110DCC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:water_wheel"
+					}
+					type: "item"
+				}
+			]
+			title: "Ruedas de agua"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6EB46CA29CBDF8C0"]
+			description: ["Se consigue dandole &o&eclick derecho&r&r a un blaze con un blaze burner vacío."]
+			id: "2C8804254B3CDFD9"
+			rewards: [
+				{
+					id: "298CF0F2F8684BF9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:blaze_cake"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4A8AECCE85DBED22"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "7A7379C67870237B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:blaze_burner"
+				}
+				type: "item"
+			}]
+			x: 11.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C8804254B3CDFD9"]
+			description: ["Sirve para hacer maquinas más avanzadas."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:brass_ingot"
+			}
+			id: "715BDF6986633033"
+			tasks: [
+				{
+					count: 16L
+					id: "59DF1C7BD90C84BA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6BF2252C2916DFE1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:brass_casing"
+					}
+					type: "item"
+				}
+			]
+			title: "Latón"
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16CE758B49206D2F"]
+			description: ["Sirve para hacer maquians más complejas."]
+			id: "0D10FB4ECAF93B08"
+			rewards: [{
+				id: "7B7C00467FE70DC7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:wand_of_symmetry"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7054FFC4F11AD817"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:precision_mechanism"
+				}
+				type: "item"
+			}]
+			title: "Mecanismo de presición"
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["715BDF6986633033"]
+			description: ["Pueden filtrar items y en el caso del Link de Redstone puede enviar señales de redstone de forma inalámbrica."]
+			id: "1B2EF43447855949"
+			rewards: [
+				{
+					count: 32
+					id: "0E6DACF01052BCF1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "71DA46EF97BED6F4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "704DA25A539BAAC7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:gold_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "66AA8ABFD23BE824"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:brass_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "53E8C847652A37C7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:zinc_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "29127A8F41123E55"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:andesite_alloy"
+					}
+					type: "item"
+				}
+				{
+					id: "7B960DC90C4581FF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Aprendí a pensar :v"
+			tasks: [
+				{
+					count: 2L
+					id: "2BEDDFB34F91C417"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:brass_funnel"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "231F881105C34531"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:brass_tunnel"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "433BEEFC0E11DBA2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:redstone_link"
+					}
+					type: "item"
+				}
+				{
+					id: "059566CB190FA9EA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:smart_chute"
+					}
+					type: "item"
+				}
+				{
+					id: "2DFEC99787EADB86"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:content_observer"
+					}
+					type: "item"
+				}
+				{
+					id: "220B4172329EC50A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:smart_fluid_pipe"
+					}
+					type: "item"
+				}
+			]
+			title: "Maquinas inteligentes"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16CE758B49206D2F"]
+			description: ["Almacena una gran cantidad de items pero no se puede acceder a su inventario. Los items tiene que ser introducidos y sacados con embudos o parecidos."]
+			id: "34B0ED944826FD93"
+			rewards: [
+				{
+					count: 2
+					id: "5F797ABE74A4405C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:andesite_funnel"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2F22746F0BE2D80D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:brass_funnel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 9L
+				id: "224F0317CB0C4C4F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:item_vault"
+				}
+				type: "item"
+			}]
+			title: "Bóveda"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4E543B644EF54B87"]
+			description: ["El tanque almacaena fluidos y se puede expandir. Las tuberias y valvuals permiten transportarlos."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:copper_casing"
+			}
+			id: "27104A392A4ADAAB"
+			rewards: [
+				{
+					count: 16
+					id: "5DF3C976BFB261E8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "459B70DD16D5314B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:copper_backtank"
+						tag: {
+							Air: 900
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0E7B89DFADC4CE99"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 9L
+					id: "4AA2368A5369DE49"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:fluid_tank"
+					}
+					type: "item"
+				}
+				{
+					id: "0A8B94948F40C68D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:fluid_pipe"
+					}
+					type: "item"
+				}
+				{
+					id: "0CE8DCDA43A042C6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:mechanical_pump"
+					}
+					type: "item"
+				}
+				{
+					id: "3305B5FCAE397FB6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:item_drain"
+					}
+					type: "item"
+				}
+				{
+					id: "3B0B7FF62045D6B3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:hose_pulley"
+					}
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "729566ADC74EF906"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:copper_casing"
+					}
+					type: "item"
+				}
+			]
+			title: "Tanque de fluidos"
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"27104A392A4ADAAB"
+				"2C8804254B3CDFD9"
+			]
+			description: ["Genera energía rotacional con el vapor generado en una caldera. Necesita calor y agua constantemente para funcionar."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:steam_engine"
+			}
+			id: "0835A37F74B3BAB8"
+			rewards: [
+				{
+					id: "2C9CDD5C53555FEC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:potato_cannon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2215C04623730F53"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					count: 9L
+					id: "2B9778895536E52F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:fluid_tank"
+					}
+					type: "item"
+				}
+				{
+					id: "19007215E94F36E5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:steam_engine"
+					}
+					type: "item"
+				}
+				{
+					id: "2EDC8263B82155F5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:blaze_burner"
+					}
+					type: "item"
+				}
+				{
+					id: "4191D8C98CA1AEFA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:mechanical_pump"
+					}
+					type: "item"
+				}
+			]
+			title: "Motor de vapor"
+			x: 6.75d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0D10FB4ECAF93B08"
+				"715BDF6986633033"
+			]
+			description: ["Puede mover objetos y ponerlos en contenedores de froma precisa."]
+			id: "12F274DBA4621D24"
+			rewards: [{
+				id: "404B40FC468F5BD3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "54380B1638D6710C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:mechanical_arm"
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0D10FB4ECAF93B08"]
+			description: ["Los trenes pueden llevar items o fluidos y pueden ser construidos como quieran."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "create:track"
+			}
+			id: "0D3F0E47191751F2"
+			rewards: [
+				{
+					id: "0CFA3292EC4C102F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:schedule"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1992D4A1DB847633"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:track"
+					}
+					type: "item"
+				}
+				{
+					id: "3A37A254E81A87EE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:red_seat"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "07BF7D1A4E676E75"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "103EEF3F930E47F9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:railway_casing"
+					}
+					type: "item"
+				}
+				{
+					id: "72AC70ACBC683014"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:track_station"
+					}
+					type: "item"
+				}
+				{
+					id: "5C4CCAD6D19C72B4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:controls"
+					}
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "07B15BD058D090A9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:track"
+					}
+					type: "item"
+				}
+			]
+			title: "Trenes"
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0DA2BBB11F658EA7"]
+			description: ["Genera energía rotacional al girar con el viento. Debe tner aspas de molino o lana para funcionar."]
+			id: "1C18415982A50BF3"
+			rewards: [{
+				count: 16
+				id: "291C5E00C5F4DEC9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:white_sail"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C908EBD35BCF53F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:windmill_bearing"
+				}
+				type: "item"
+			}]
+			title: "Rodamiento de molino"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7AF782EBCF3888A9"]
+			description: ["Permite triturar bloques para procesarlos u obtener materiales nuevos."]
+			id: "016581ED019F6A48"
+			shape: "octagon"
+			size: 1.3d
+			tasks: [{
+				count: 2L
+				id: "21A4174E28742F8D"
+				item: {
+					Count: 2
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:crushing_wheel"
+				}
+				type: "item"
+			}]
+			title: "Ruedas trituradoras"
+			x: 15.600000000000001d
+			y: 1.9500000000000002d
+		}
+		{
+			dependencies: ["715BDF6986633033"]
+			description: ["Craftean itema autamáticamente cuando tienen la forma y orden correcto."]
+			id: "7AF782EBCF3888A9"
+			rewards: [
+				{
+					count: 8
+					id: "55183D1037981042"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:crafter_slot_cover"
+					}
+					type: "item"
+				}
+				{
+					id: "2DFE4803A270B385"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 21L
+				id: "228ACFE9F62F67CC"
+				item: {
+					Count: 21
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:mechanical_crafter"
+				}
+				type: "item"
+			}]
+			title: "Ensambladores mecánicos"
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["16CE758B49206D2F"]
+			description: ["Se usan para craftera maquinas más avanzadas. Se hacen con quarzo rosa pulido, se obtiene al dar click derecho con una lija en una mano y el quarzo rosa en la otra."]
+			id: "6EB46CA29CBDF8C0"
+			rewards: [{
+				count: 8
+				id: "4EEAC5E980299A43"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:polished_rose_quartz"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 5L
+				id: "0E09F5DDA9A6EA5D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:electron_tube"
+				}
+				type: "item"
+			}]
+			title: "Tubos de electron"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["715BDF6986633033"]
+			description: ["Permite vender un tipo de item por un precio seleccionable. Se puede poner una tarjeta de crédito para reclamar el dinero a su cuenta automaticamente."]
+			id: "50ABF7009483A18A"
+			rewards: [{
+				id: "055E4860857DF47E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "068A04C8C8EBD784"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:vendor"
+				}
+				type: "item"
+			}]
+			title: "Tienda"
+			x: 14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["16CE758B49206D2F"]
+			description: ["Para construir uno se debe hacer la estructura del cañon encima de la base, después darle redstone en el icono del martillo para ensamblarlo. Los cañones se pueden apuntar con energía rotacional y se disparan con una señal de redstone en el otro icono. La munición del cañon se puede insertar con la cabeza de baqueta y sacar con la cabeza de sacatrapos, o con un piston mecánico."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "createbigcannons:wrought_iron_cannon_chamber"
+			}
+			id: "44056FADABC36CE7"
+			rewards: [
+				{
+					id: "68D98F5B3C9DDAD8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createbigcannons:powder_charge"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "01D1647AFB32F988"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createbigcannons:solid_shot"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3FE0E47BD98567A6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createbigcannons:ram_head"
+					}
+					type: "item"
+				}
+				{
+					id: "3D57A299962621DB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createbigcannons:worm_head"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "19C83BD512F87752"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createbigcannons:cannon_mount"
+					}
+					type: "item"
+				}
+				{
+					id: "58442C4041CBE8E8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createbigcannons:wrought_iron_cannon_end"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7B99BD0EC66D447A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createbigcannons:wrought_iron_cannon_chamber"
+					}
+					type: "item"
+				}
+			]
+			title: "Cañones"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["44056FADABC36CE7"]
+			description: ["Sirve para hacer otros tipos de cañones, se hace presioando hierro en una cuenca calentada."]
+			id: "400544F35AFC29C7"
+			tasks: [{
+				count: 8L
+				id: "392870CBB500B73F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "createbigcannons:cast_iron_ingot"
+				}
+				type: "item"
+			}]
+			title: "Hierro colado"
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["400544F35AFC29C7"]
+			description: ["Los cañones automáticos se ensamblan y pueden ser controlados de la misma forma que los normales, pero si se le da &o&eshift+click derecho&r&r con una llave inglesa se le puede poner un asiento para controlarlo manualmente."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "createbigcannons:autocannon_ammo_container"
+				tag: { }
+			}
+			id: "3CFB4B5C1317EF1A"
+			rewards: [
+				{
+					id: "392235BE2F37C4D3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createbigcannons:autocannon_ammo_container"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7B4C2B7E66FD54CF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:red_seat"
+					}
+					type: "item"
+				}
+				{
+					id: "4CC59C1FF7D8AAA2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "691471D64149317E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createbigcannons:cast_iron_autocannon_breech"
+					}
+					type: "item"
+				}
+				{
+					id: "4035BD30A70E77DE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createbigcannons:cast_iron_autocannon_recoil_spring"
+					}
+					type: "item"
+				}
+				{
+					id: "411F2B8E6B543DAC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createbigcannons:cast_iron_autocannon_barrel"
+					}
+					type: "item"
+				}
+			]
+			title: "Cañones automáticos"
+			x: 8.5d
+			y: -6.0d
+		}
+	]
+	title: "Create"
+}

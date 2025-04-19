@@ -1,0 +1,182 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aquamirae"
+	group: "026C07FBD0DA37DB"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "aquamirae:rune_of_the_storm"
+	}
+	id: "48AA562B62BFE99C"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["14212C50F82557E4"]
+			id: "4ED8CCAFADA68F0E"
+			rewards: [
+				{
+					count: 3
+					id: "6FD80C11C58B1C8A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "13F83E57E2CB2EBA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "aquamirae:three_bolt_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "53D00BDFE48E32EE"
+				title: "Fantasma de la Capitana Cornelia"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["14212C50F82557E4"]
+			id: "33A790786FE6BB57"
+			rewards: [
+				{
+					count: 5
+					id: "3493329985E06DC2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "5FDBB0D5BF16FF6D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "aquamirae:maze_mother"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "aquamirae:abyssal_amethyst"
+				}
+				id: "6C516C718C4CDC4A"
+				title: "Madre del Laberinto"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["14212C50F82557E4"]
+			id: "05FE4AEEA977E55D"
+			rewards: [
+				{
+					count: 4
+					id: "3515B529C7868382"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "03C51CF33C70062A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "aquamirae:eel"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "aquamirae:fin"
+				}
+				id: "1A3EC8F9F7234316"
+				title: "Anguila"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "14212C50F82557E4"
+			rewards: [{
+				id: "290F5598EF216970"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				biome: "#aquamirae:ice_maze"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:packed_ice"
+				}
+				id: "116545D0679E2D15"
+				title: "Laberinto de Hielo"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+	]
+	title: "Aquamirae"
+}

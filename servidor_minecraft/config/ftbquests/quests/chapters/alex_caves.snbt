@@ -1,0 +1,308 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alex_caves"
+	group: "026C07FBD0DA37DB"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "alexscaves:textures/misc/advancement/icon/toxic_caves.png"
+		}
+	}
+	id: "593D1FA06E6524DC"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Se invoca tirando el &eCatalizador Ominoso&r en un volcan de las &6Cuevas Primordiales.&r"]
+			id: "5A4628E6BEE4F0F1"
+			rewards: [
+				{
+					count: 5
+					id: "5AF2651CA58B8362"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "35BDF377C1D21C11"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Extinción"
+			tasks: [{
+				entity: "alexscaves:luxtructosaurus"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "alexscaves:textures/misc/advancement/icon/summon_luxtructosaurus.png"
+					}
+				}
+				id: "07C00D63FC5D343B"
+				title: "Luxtructosaurus"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Aparece en la fosa abisal. Al morir suelta partes para armar un submarino y el &bembrión inmortal&r, col el que se puede hacer el huevo de &aTremorzilla&r."]
+			id: "6D1ED864BED7E180"
+			rewards: [
+				{
+					id: "4FCE0D01DB47CD05"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41E26733AC0CFA69"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:diving_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07787E0FF8AE7152"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:diving_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FE5839B9565E01A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "alexscaves:hullbreaker"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:immortal_embryo"
+				}
+				id: "570E5FF7B68363E1"
+				title: "Hullbreaker"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5A4628E6BEE4F0F1"]
+			id: "18C2B397EE3065A1"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "2A6F52A23D46F0B0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "4B61356CC9620ECD"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					id: "79F5D13D9E5066D1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves_torpedoes:tectonic_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FF0CD058A6FEA41"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves_torpedoes:tectonic_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07ED9BE50FC4DEA5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves_torpedoes:tectonic_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66719D7E6D60071F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves_torpedoes:tectonic_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B1C1C130764020A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexscaves:extinction_spear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Fragmentos Tectonicos"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"6D1ED864BED7E180"
+				"5A4628E6BEE4F0F1"
+			]
+			description: ["El huevo solo nace al reventarle un bomba nuclear al lado."]
+			id: "059CFB52BF2CDDD3"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "15A20E331738C220"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "654E758D0149DD7E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "1D9A10BFF4F241D4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexscaves:tremorzilla_egg"
+				}
+				type: "item"
+			}]
+			title: "Tremorzilla"
+			x: 2.0d
+			y: 1.0d
+		}
+	]
+	title: "Alex Caves"
+}

@@ -1,0 +1,902 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "productive_bees"
+	group: "2276081CEF43EFAE"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "ftbchunks:textures/faces/minecraft/bee.png"
+		}
+	}
+	id: "568A630E262F2D53"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Añade muchas abejas nuevas que se pueden aprovechar para generar recursos."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity_icon/bee/bee.png"
+				}
+			}
+			id: "06819B4DF8799ED4"
+			rewards: [
+				{
+					id: "6F29C0F7CB3CDD74"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "productivebees:guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "673CDE67DC03F5F1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "productivebees:bee_cage"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6D1A67A5EC1CC536"
+				title: "Productive Bees"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06819B4DF8799ED4"]
+			description: ["Añade una dimensión dentro de un panal de abejas. Para entrar hay que tirar una perla de ender a un panal."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "the_bumblezone:honeycomb_brood_block"
+			}
+			id: "63B6C70CB55BBDEA"
+			rewards: [{
+				id: "10A6117D4F4D1AAC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "productivebees:sturdy_bee_cage"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "the_bumblezone:honeycomb_brood_block"
+				}
+				id: "278338A15FAC7638"
+				title: "Bumblezone"
+				type: "dimension"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["06819B4DF8799ED4"]
+			description: ["Permite ver las abejas que están dentro del panal."]
+			id: "581E4D12524130FD"
+			rewards: [{
+				id: "45BA23F756E09F98"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "productivebees:nest_locator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "productivebees:advanced_oak_beehive"
+				}
+				id: "18DA690920278245"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "productivebees:advanced_oak_beehive"
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "Apiario avanzado"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63B6C70CB55BBDEA"]
+			description: [
+				"En las buenas y en las malas :vvvv"
+				""
+				"Los Beehemoth se domestican con cubos de miel y se sube su nivel de amistad con más cubos de miel o con agua azucarada."
+			]
+			id: "028732CA00AB377C"
+			rewards: [
+				{
+					count: 5
+					id: "6F523EC30AF81FD8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "157971A2A4819CDB"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 2
+					id: "0E0725999B233297"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Para siempre y por siempre :vv"
+			tasks: [{
+				advancement: "the_bumblezone:beehemoth/queen_beehemoth"
+				criterion: ""
+				id: "40D9A3E83D481502"
+				title: "Sube a un Beehemoth al máximo nivel de amistad"
+				type: "advancement"
+			}]
+			title: "Los amigos son amigos :v"
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["581E4D12524130FD"]
+			description: ["Permite convertir los panales generados por las abejas en recursos dependiendo del tipo de panal."]
+			id: "36ECE025715CBC2F"
+			rewards: [{
+				count: 5
+				id: "1AB881FF9C5F7EA9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:obsidian"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C18A27864082589"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "productivebees:centrifuge"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["36ECE025715CBC2F"]
+			description: ["El botellero permite poner la miel en botellas. Si se ponen botellas en el inventario del botellero y un piston con un bloque de espacio hacia arriba, se puede aplastar una abeja para obtener material de abeja aplastada, el cual al ponerlo en una centrifugadora dará sus genes."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "productivebees:bottler"
+			}
+			id: "764E87FA790C5986"
+			rewards: [
+				{
+					count: 16
+					id: "067AFE64E26E5E97"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:glass_bottle"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "309B45C19FAE32C3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [
+				{
+					id: "6F373D7DFB06C9FB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "productivebees:bottler"
+					}
+					type: "item"
+				}
+				{
+					id: "683CBBD7B1FE9D7D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "productivebees:gene_bottle"
+						tag: {
+							productivebees_genes: {
+								AbsorptionAmount: 0.0f
+								Age: 0
+								Air: 300s
+								AngerTime: 0
+								ArmorDropChances: [
+									0.085f
+									0.085f
+									0.085f
+									0.085f
+								]
+								ArmorItems: [
+									{ }
+									{ }
+									{ }
+									{ }
+								]
+								Attributes: [
+									{
+										Base: 0.08d
+										Name: "forge:entity_gravity"
+									}
+									{
+										Base: 0.0d
+										Name: "minecraft:generic.armor"
+									}
+									{
+										Base: 0.0d
+										Name: "forge:step_height_addition"
+									}
+									{
+										Base: 0.30000001192092896d
+										Name: "minecraft:generic.movement_speed"
+									}
+									{
+										Base: 48.0d
+										Modifiers: [{
+											Amount: -0.0423166016870625d
+											Name: "Random spawn bonus"
+											Operation: 1
+											UUID: [I;
+												1882714312
+												1001750
+												-1956451999
+												-109170941
+											]
+										}]
+										Name: "minecraft:generic.follow_range"
+									}
+									{
+										Base: 0.0d
+										Name: "minecraft:generic.knockback_resistance"
+									}
+								]
+								BalmData: { }
+								BlueprintTrackedData: [ ]
+								Brain: {
+									memories: { }
+								}
+								CanPickUpLoot: 0b
+								CanUpdate: 1b
+								CannotEnterHiveTicks: 0
+								CitadelData: { }
+								CropsGrownSincePollination: 0
+								DeathTime: 0s
+								FallDistance: 0.0f
+								FallFlying: 0b
+								Fire: -1s
+								ForcedAge: 0
+								ForgeCaps: {
+									"cataclysm:charge_cap": {
+										ChargeDamage: 0.0f
+										ChargeTime: 0
+										KnockbackSpeed: 0.0f
+										dx: 0.0f
+										dz: 0.0f
+										isCharge: 0b
+										timer: 0
+									}
+									"cataclysm:hook_cap": {
+										hasHook: 0b
+									}
+									"cataclysm:parry_cap": {
+										frame: 0
+									}
+									"cataclysm:render_rush_cap": {
+										damage: 0.0f
+										isRush: 0b
+										timer: 0
+									}
+									"cataclysm:tentacle_cap": {
+										getLastTentacleID: 0
+										hasTentacle: 0b
+									}
+									"celestisynth:celestisynthentitycapabilities": {
+										cs.frostBound: 0
+										cs.phantomTagSource: 0
+										cs.phantomTagTime: 0
+										cs.quasarImbueSource: 0
+										cs.quasarImbueTime: 0
+										cs.trueInvisibility: 0
+									}
+									"curios:inventory": {
+										Curios: [ ]
+									}
+									"mowziesmobs:ability": { }
+									"mowziesmobs:frozen": {
+										freezeDecayDelay: 0
+										freezeProgress: 0.0f
+										frozen: 0b
+										frozenPitch: 0.0f
+										frozenRenderYawOffset: 0.0f
+										frozenSwingProgress: 0.0f
+										frozenWalkAnimPosition: 0.0f
+										frozenWalkAnimSpeed: 0.0f
+										frozenYaw: 0.0f
+										frozenYawHead: 0.0f
+										prevFrozen: 0b
+										prevHasAI: 1b
+									}
+									"mowziesmobs:frozen_cap": {
+										freezeDecayDelay: 0
+										freezeProgress: 0.0f
+										frozen: 0b
+										frozenPitch: 0.0f
+										frozenRenderYawOffset: 0.0f
+										frozenSwingProgress: 0.0f
+										frozenWalkAnimPosition: 0.0f
+										frozenWalkAnimSpeed: 0.0f
+										frozenYaw: 0.0f
+										frozenYawHead: 0.0f
+										prevFrozen: 0b
+										prevHasAI: 1b
+									}
+									"mowziesmobs:last_damage": { }
+									"mowziesmobs:living_cap": { }
+									"the_bumblezone:entity_dim_component": {
+										non_bz_dimensiontype_namespace: "minecraft"
+										non_bz_dmensiontype_path: "overworld"
+									}
+									"the_bumblezone:living_entity_data": {
+										missed_paralysis: 0
+									}
+									"the_bumblezone:original_flying_speed": {
+										original_flying_speed: 0.2f
+									}
+								}
+								ForgeData: { }
+								HandDropChances: [
+									0.085f
+									0.085f
+								]
+								HandItems: [
+									{ }
+									{ }
+								]
+								HasNectar: 0b
+								HasStung: 0b
+								Health: 10.0f
+								HurtByTimestamp: 0
+								HurtTime: 0s
+								InLove: 0
+								Invulnerable: 0b
+								LeftHanded: 0b
+								Motion: [
+									0.0d
+									0.0d
+									0.0d
+								]
+								NoGravity: 1b
+								OnGround: 1b
+								PersistenceRequired: 0b
+								PortalCooldown: 0
+								Pos: [
+									-695.6500000059605d
+									57.0d
+									-193.02500000596046d
+								]
+								Rotation: [
+									105.70775f
+									0.0f
+								]
+								TicksSincePollination: 22
+								UUID: [I;
+									1622077747
+									-2043264722
+									-1264562550
+									-477281784
+								]
+								"forge:spawn_type": "SPAWN_EGG"
+								name: "Bee"
+								type: "minecraft:bee"
+							}
+						}
+					}
+					match_nbt: false
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"15E3DBE03103C8F7"
+				"764E87FA790C5986"
+			]
+			description: ["Permite extraer genes de las abejas que entren al panal sin tener que matarlas."]
+			id: "0582D708F2D0EA53"
+			rewards: [
+				{
+					id: "41B5759197909BEB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "productivebees:upgrade_time"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "4EE8FC15C273BD6C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "54BE8C5D2BD48F8A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "productivebees:upgrade_bee_sampler"
+				}
+				type: "item"
+			}]
+			title: "Muestreador de genes"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["581E4D12524130FD"]
+			description: ["Aumenta la capacidad de los panales avanzados y permite añadir mejoras."]
+			id: "15E3DBE03103C8F7"
+			rewards: [{
+				id: "0325F799653C593B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "productivebees:upgrade_time"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "285316F50010915D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "productivebees:expansion_box_oak"
+				}
+				type: "item"
+			}]
+			title: "Caja de expansión"
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"55F18C221EF54F0B"
+				"36ECE025715CBC2F"
+			]
+			description: ["Funciona igual que la centrifugadora normal pero es más rápida si se le da energía."]
+			id: "7A998B8CD2AFB68E"
+			rewards: [{
+				count: 2
+				id: "365E66203AF6D376"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:diamond"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B2840E9419942EE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "productivebees:powered_centrifuge"
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["581E4D12524130FD"]
+			description: ["Usa miel para generar energía que puede usarse con otras maquinas."]
+			id: "55F18C221EF54F0B"
+			rewards: [
+				{
+					id: "72D78786A7B49FFA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "create:honey_bucket"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0AC3F676522ED7F9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0D85CEC3105E7FE1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "productivebees:honey_generator"
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["764E87FA790C5986"]
+			description: ["Permite guardar los genes para que no ocupen tanto espacio. Los genes se pueden combinar con dulces de miel y así darlselo a una abeja para que tome ese gen."]
+			id: "06F630D3EF5E01DB"
+			rewards: [{
+				count: 32
+				id: "78536DC8A1D2DA42"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "productivebees:honey_treat"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1687E7D811443007"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "productivebees:gene_indexer"
+				}
+				type: "item"
+			}]
+			title: "Organizador de genes"
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["55F18C221EF54F0B"]
+			description: ["Permite reproducir abejas sin tener que hacerlo manualmente."]
+			id: "3DEBFE9991F8A6D1"
+			rewards: [{
+				count: 16
+				id: "06E4C1471743FAA9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "productivebees:honey_treat"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C2A0A8118FC353C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "productivebees:breeding_chamber"
+				}
+				type: "item"
+			}]
+			title: "Cámara de reproducción"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["55F18C221EF54F0B"]
+			description: ["Permite convertir abejas bebés en adultas. Si se pone un huevo normal y el gen de una abeja en especifico se puede crear un huevo de esa abeja."]
+			id: "1A306BBF75217679"
+			rewards: [
+				{
+					count: 16
+					id: "0E47AB9EE42A010F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "productivebees:honey_treat"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1EA6C917CEDBEDB0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "684DC9607ED75052"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "productivebees:incubator"
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["581E4D12524130FD"]
+			description: ["Atrapa a las abejas que tenga cerca, se le pueden poner mejoras para especificar que tipo de abeja."]
+			id: "66EDD26614360130"
+			rewards: [{
+				count: 16
+				id: "36F9687372C46DDC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "productivebees:honey_treat"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F2DD1A96AC2A32D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "productivebees:catcher"
+				}
+				type: "item"
+			}]
+			title: "Atrapador"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["55F18C221EF54F0B"]
+			description: ["Funciona igual que la centrifugadora mecanica pero convierte la cera en miel automáticamente."]
+			id: "126EB79ED6C41248"
+			rewards: [{
+				count: 16
+				id: "1DC0DA35FE2FCD2A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "productivebees:configurable_honeycomb"
+					tag: {
+						EntityTag: {
+							type: "productivebees:experience"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B7C608E0E74042B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "productivebees:heated_centrifuge"
+				}
+				type: "item"
+			}]
+			title: "Centrifugadora calentada"
+			x: 5.5d
+			y: 1.5d
+		}
+	]
+	title: "Productive Bees"
+}

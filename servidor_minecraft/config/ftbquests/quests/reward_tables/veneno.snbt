@@ -1,0 +1,50 @@
+{
+	id: "7C3E4B283A1B6436"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:poison"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:splash_potion"
+				tag: {
+					Potion: "minecraft:poison"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:lingering_potion"
+				tag: {
+					Potion: "minecraft:poison"
+				}
+			}
+		}
+	]
+	title: "Veneno"
+}

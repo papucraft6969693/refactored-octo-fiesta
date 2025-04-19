@@ -1,0 +1,45 @@
+{
+	id: "58ACC2C6FF103AFA"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "papucraft:fragmento_papu"
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:experience_bottle"
+			}
+			weight: 0.7f
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "numismatics:cog"
+			}
+			weight: 0.2f
+		}
+	]
+	title: "Papu"
+}

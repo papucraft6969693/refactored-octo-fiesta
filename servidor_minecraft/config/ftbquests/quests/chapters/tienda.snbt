@@ -1,0 +1,2145 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tienda"
+	group: "2EF426A63DC9F86C"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "numismatics:sprocket"
+	}
+	id: "66FCD8DD2AD5B0A1"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["64A8B7B2B4D914F9"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:raw_copper"
+			}
+			id: "7EDC182592B602DE"
+			rewards: [{
+				count: 16
+				id: "5E7503C7DF202659"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:raw_copper"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "3E4E8F6781CB8ED9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Cobre"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["64A8B7B2B4D914F9"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:raw_gold"
+			}
+			id: "2730E462FFB95C22"
+			rewards: [{
+				count: 16
+				id: "060FBA451E982681"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:raw_gold"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "11AAA0A1E4E1F96F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Oro"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["64A8B7B2B4D914F9"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:raw_iron"
+			}
+			id: "65CD6DD012D9995B"
+			rewards: [{
+				count: 16
+				id: "0FB003CE644F31A5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:raw_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "66CA6B689DF9B96A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Hierro"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["64A8B7B2B4D914F9"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:diamond"
+			}
+			id: "4CCD3B09D33862C5"
+			rewards: [{
+				count: 4
+				id: "11C2501239C48888"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "59C3413951B199C8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Diamante"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["20A8B2298B2AD09A"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:bread"
+			}
+			id: "2C0BE082B84D9384"
+			rewards: [{
+				count: 16
+				id: "2975D66B4AB221A4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:bread"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "71B72A4F489A17AB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Pan"
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["20A8B2298B2AD09A"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:golden_apple"
+			}
+			id: "4CCF975AE9D40F4D"
+			rewards: [{
+				id: "6F8A5104D2E62749"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "661322D432194DBC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Manzana Dorada"
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["20A8B2298B2AD09A"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:enchanted_golden_apple"
+			}
+			id: "4B26BDE340A358DB"
+			rewards: [{
+				id: "64C775BF7B1794A4"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:enchanted_golden_apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "5A866EC73D2FF6D8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Manzana Encantada"
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:iron_ingot"
+			}
+			id: "64A8B7B2B4D914F9"
+			size: 1.5d
+			tasks: [{
+				id: "6768FEA01406A06C"
+				title: "Materiales"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:apple"
+			}
+			id: "20A8B2298B2AD09A"
+			size: 1.5d
+			tasks: [{
+				id: "03F9057FD87D199A"
+				title: "Comida"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:glass_bottle"
+			}
+			id: "2B0AAA60D1D7668A"
+			size: 1.5d
+			tasks: [{
+				id: "1EFF00A69369400A"
+				title: "Pociones"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "37AAB5B4FE922E59"
+			size: 1.5d
+			tasks: [{
+				id: "5E235E9422DBA39C"
+				title: "Herramientas"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2B0AAA60D1D7668A"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:healing"
+				}
+			}
+			id: "14D297749B4CF8B7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09EB84E308E6E1BA"
+				table_id: 328104659608540713L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "6811F201055E8C2C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Curación"
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2B0AAA60D1D7668A"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:swiftness"
+				}
+			}
+			id: "2D6BD843DC36FA62"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "318338ADC0560899"
+				table_id: 6316810735161962840L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "544097D6B68898B3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Velocidad"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2B0AAA60D1D7668A"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:poison"
+				}
+			}
+			id: "0640EC157D2A9148"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3343F8D2B7B378F2"
+				table_id: 8952675745404773430L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "0BC504BBFCA60D8D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Veneno"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2B0AAA60D1D7668A"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:strength"
+				}
+			}
+			id: "526629F7469B7EA4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "549C8BC9EFDE52D8"
+				table_id: 7523604853513529153L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "6FAF544884317BAD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Fuerza"
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2B0AAA60D1D7668A"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:potion"
+				tag: {
+					Potion: "irons_spellbooks:instant_mana_one"
+				}
+			}
+			id: "7F5DCAFF44604FE1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "232352CD760B2544"
+				table_id: 3614408881921798699L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "2D3E29FB40AC4ED7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Maná"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2B0AAA60D1D7668A"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:night_vision"
+				}
+			}
+			id: "69D2D94FDE9DE139"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AF84CA4E0DDA91F"
+				table_id: 5897574500501418639L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "17FA08EBBD2AA53E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Visión Nocturna"
+			x: 6.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:ghast_spawn_egg"
+			}
+			id: "6580333ABBB713BE"
+			size: 1.5d
+			tasks: [{
+				id: "4387B8737AA50FA0"
+				title: "Mobs"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2F715688AC618272"
+			size: 1.5d
+			tasks: [{
+				id: "342A0F5A740BE24F"
+				title: "Armadura"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6580333ABBB713BE"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity_icon/cow/cow.png"
+				}
+			}
+			id: "0891E528ADD3BCAA"
+			rewards: [{
+				id: "0B43F4B68BD04663"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:cow_spawn_egg"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "4A95E2F034215AF2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Vaca"
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6580333ABBB713BE"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity_icon/pig/pig.png"
+				}
+			}
+			id: "58081746B10AB1E6"
+			rewards: [{
+				id: "050E5A56350098F7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:pig_spawn_egg"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "288DF2490C7E978E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Cerdo"
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6580333ABBB713BE"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbchunks:textures/faces/minecraft/sheep.png"
+				}
+			}
+			id: "7D5684841CB0C6BF"
+			rewards: [{
+				id: "74EE632E0D9CC6A9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:sheep_spawn_egg"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "36C384E69DEF0A26"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Oveja"
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6580333ABBB713BE"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "quark:textures/entity_icon/variants/chicken5.png"
+				}
+			}
+			id: "5CDE39C6710AB43F"
+			rewards: [{
+				id: "79C15B2F21962044"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:chicken_spawn_egg"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "0AFAF0168B2FFB1B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Pollo"
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6580333ABBB713BE"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity_icon/horse/horse_brown.png"
+				}
+			}
+			id: "343091F3CC69B96D"
+			rewards: [{
+				id: "08C2971C56138C88"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:horse_spawn_egg"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "1E0AC8EF9F37BCF3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Caballo"
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			id: "1EBCB0A2A71D9953"
+			tasks: [{
+				id: "448B081E599128AF"
+				title: "Magia"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			id: "18CA9F2BDC582DB0"
+			tasks: [{
+				id: "68D73AF2D6ED7E71"
+				title: "Varios"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1EBCB0A2A71D9953"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "irons_spellbooks:invisibility_elixir"
+			}
+			id: "79AE074C2D85A892"
+			rewards: [{
+				id: "1ACE96743810B7CF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:invisibility_elixir"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "296C59E745670CE0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Elixir de invisibilidad"
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["18CA9F2BDC582DB0"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "domesticationinnovation:collar_tag"
+			}
+			id: "3E64C2E1C4B4A222"
+			rewards: [{
+				id: "3E61C8DF6FD4511F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "domesticationinnovation:collar_tag"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "1CABDBB441EFF302"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Collar"
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["18CA9F2BDC582DB0"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:name_tag"
+			}
+			id: "5997E5F27DEA5F12"
+			rewards: [{
+				id: "08B658E0B4F3CE9F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:name_tag"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "13AA57E25E714C13"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Etiqueta"
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["18CA9F2BDC582DB0"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:saddle"
+			}
+			id: "075BCA7D34102145"
+			rewards: [{
+				id: "558DF967C887C58F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:saddle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "613E1E191FB68056"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Silla de montar"
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1EBCB0A2A71D9953"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "irons_spellbooks:upgrade_orb"
+			}
+			id: "5AAB6525902C7C75"
+			rewards: [{
+				id: "6A2EC13DCE4CA83B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:upgrade_orb"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "281883D8D627F264"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Orbe de mejora vacía"
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1EBCB0A2A71D9953"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:totem_of_undying"
+			}
+			id: "7010919281A27697"
+			rewards: [{
+				id: "0A97D3E9A04EFCCF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:totem_of_undying"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "6E52CB4CD964452B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Totem"
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2F715688AC618272"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:iron_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "45F9B8C3507E979A"
+			rewards: [{
+				id: "1C8D89CD0FCE8AAB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:iron_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "17CA6C3EDF8BA0F5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Casco de hierro"
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1EBCB0A2A71D9953"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "irons_spellbooks:rare_ink"
+			}
+			id: "0B4F0F106CF71044"
+			rewards: [{
+				id: "3F637E0E4C786A6D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:rare_ink"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "3D852D4B71E9B81C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Tinta Rara"
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1EBCB0A2A71D9953"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "irons_spellbooks:epic_ink"
+			}
+			id: "374437885B3833FE"
+			rewards: [{
+				id: "74208207A9E59B05"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:epic_ink"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 192L
+				id: "68A77D4BE8B31E63"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Tinta Epica"
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1EBCB0A2A71D9953"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "irons_spellbooks:uncommon_ink"
+			}
+			id: "09836DD8B80704A8"
+			rewards: [{
+				id: "7AD3AE2480D0D6A8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:uncommon_ink"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "7C48A67BBEFD1A82"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Tinta Inusual"
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1EBCB0A2A71D9953"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "irons_spellbooks:common_ink"
+			}
+			id: "3D44AA2A88DBA6AA"
+			rewards: [{
+				id: "76667C94BE8828A5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:common_ink"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "1FA851E06EA7544C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Tinta Común"
+			x: 6.5d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1EBCB0A2A71D9953"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "irons_spellbooks:legendary_ink"
+			}
+			id: "3F71A949D82AB6A7"
+			rewards: [{
+				id: "41B0876D13A93305"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "irons_spellbooks:legendary_ink"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "7B2C3587B285F383"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Tinta Legendaria"
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2F715688AC618272"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:iron_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7B3CDB6DDCE85384"
+			rewards: [{
+				id: "1DB2890391BC26A7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:iron_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "17F7328DD37DBC17"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Botas de hierro"
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2F715688AC618272"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6DC5D9A168BA2556"
+			rewards: [{
+				id: "35C63B90BF688B98"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:iron_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "6942F725D8BC1C9B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Pechera de hierro"
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2F715688AC618272"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:iron_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6250257A725E00F4"
+			rewards: [{
+				id: "7484C77CC6AF83CA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:iron_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "5492D219937CC50E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Pantalones de hierro"
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["37AAB5B4FE922E59"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "476E8CE40EC3D604"
+			rewards: [{
+				id: "1B5CF24768F1A75A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 96L
+				id: "282C369F4F21D773"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Pico de hierro"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["37AAB5B4FE922E59"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:iron_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "766B27D0A6170F01"
+			rewards: [{
+				id: "31381C22D096BB8A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:iron_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 96L
+				id: "6A6D1C23776FFB84"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Pala de hierro"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["37AAB5B4FE922E59"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0D61E93A9E6892D3"
+			rewards: [{
+				id: "517A8121A9F0EE66"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 96L
+				id: "6B1EA73FF1CB1449"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Hacha de hierro"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["37AAB5B4FE922E59"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1B9E877518935923"
+			rewards: [{
+				id: "50A513EA232B1E98"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 96L
+				id: "4359A9F19B14643A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Espada de hierro"
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["37AAB5B4FE922E59"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:iron_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "26745671E2348296"
+			rewards: [{
+				id: "353C2700334BDCC7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:iron_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 96L
+				id: "315FC46428A46343"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Azada de hierro"
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["37AAB5B4FE922E59"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "quark:pickarang"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4D95A92A8EF66884"
+			rewards: [{
+				id: "2D98300E559402BF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "quark:pickarang"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 196L
+				id: "120E5E082224744C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Pickarang"
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1EBCB0A2A71D9953"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 4s
+					}]
+				}
+			}
+			id: "7EC7F9ED339FF5F7"
+			rewards: [{
+				id: "0914AEFB87000995"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:mending"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "3849C9A7F77D2597"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Reparación"
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["37AAB5B4FE922E59"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "papucraft:extractor_de_momothium"
+			}
+			id: "5A06ABE8350C8B19"
+			rewards: [{
+				id: "22700B675B02DCF9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "papucraft:extractor_de_momothium"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 256L
+				id: "0FDD6B8201B7A498"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Extractor de Momothium"
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["18CA9F2BDC582DB0"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "waystones:waystone"
+			}
+			id: "06527C1D36B82157"
+			rewards: [{
+				id: "5FEEBAB18209F546"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "waystones:waystone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 128L
+				id: "5841EE45A4BB75F3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Waystone"
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["18CA9F2BDC582DB0"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "numismatics:vendor"
+			}
+			id: "3970E1C7A7057049"
+			rewards: [{
+				id: "01802916A6939F0D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:vendor"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 96L
+				id: "66DC55512F3243C9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			title: "Tienda"
+			x: -6.5d
+			y: -2.5d
+		}
+	]
+	title: "Tienda"
+}

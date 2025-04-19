@@ -1,0 +1,614 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "biomancy"
+	group: "2276081CEF43EFAE"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "biomancy:living_flesh"
+	}
+	id: "6DDC0D3169C4C400"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Biomancy usa la &ccarne&r de mobs muertos para darle vida a maquinas orgánicas."
+				""
+				"Con el &cSaqueador de Carne&r al matar mobs se obtendrán items especiales que se usan para el mod."
+			]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "biomancy:despoil_sickle"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "31C0B48223163CA9"
+			rewards: [
+				{
+					count: 32
+					id: "0C1633FD4BBA9057"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5D098ECE551488CE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "biomancy:nutrient_bar"
+					}
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "23164945EFAA2EF3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "biomancy:despoil_sickle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Biomancy"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31C0B48223163CA9"]
+			description: ["Puede crear &cmasas de carne&r si se le da suficiente carne y pociones de &dregeneración&r o &dvida instantánea&r. Si se le da carne podrida se enojará y comenzará a expandirse consuminedo los bloques a su alrededor y transfromandolo en &ccarne viviente&r."]
+			id: "0688E7B92D8C2BC7"
+			rewards: [{
+				id: "0B6CC268BA3492A7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_healing"
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "760B6ED553E5CB87"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "biomancy:primordial_cradle"
+				}
+				type: "item"
+			}]
+			title: "Cuna Primordial"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0688E7B92D8C2BC7"]
+			description: ["Es el material base de la mayoría de items del mod. Se consigue matando una &cmasa de carne&r, mientras más grande sea más &ccarne viviente&r soltará."]
+			id: "037A6716BF97EF88"
+			rewards: [{
+				count: 5
+				id: "5883D92BC7C9FC68"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "biomancy:creator_mix"
+				}
+				type: "item"
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "5A7CDA0EB060CAEF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "biomancy:living_flesh"
+				}
+				type: "item"
+			}]
+			title: "Carne viviente"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["037A6716BF97EF88"]
+			description: ["Con esto se craftean la mayoría de items del mod. Necesita &2nutrientes&r para funcionar."]
+			id: "2C08ADB6F0DBF4CF"
+			rewards: [
+				{
+					count: 8
+					id: "6CF2D2D3F2937A32"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "biomancy:nutrient_bar"
+					}
+					type: "item"
+				}
+				{
+					id: "23D316356837AE48"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "6976E0809D527693"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "biomancy:bio_forge"
+				}
+				type: "item"
+			}]
+			title: "Bio-Forja"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C08ADB6F0DBF4CF"]
+			description: ["Se usa para crear compuestos con los que se pueden hacer sueros con diferentes efectos al ser inyectados en un mob o jugador. Necesita &2nutrientes&r para funcionar. "]
+			id: "5EBE1311BC4104C7"
+			rewards: [
+				{
+					id: "7AA36C057D534B1F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "biomancy:vial_holder"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "513EB9BB213FBA48"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "biomancy:vial"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "38406C573EDE9ABE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "biomancy:bio_lab"
+				}
+				type: "item"
+			}]
+			title: "Bio-Laboratorio"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["037A6716BF97EF88"]
+			description: ["Descompone items en sus componentes básicos que luego pueden ser usados para crear otros objetos. Necesita &2nutrientes&r para funcionar."]
+			id: "1E3FEF2BA6FEBB34"
+			rewards: [{
+				count: 3
+				id: "4F1541D5D40913CC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "biomancy:exotic_dust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "434BAA480B8CB499"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "biomancy:decomposer"
+				}
+				type: "item"
+			}]
+			title: "Descomponedor"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C08ADB6F0DBF4CF"]
+			description: ["Transforma materia orgánica en pasta de &2nutrientes&r. Necesita &2nutrientes&r para funcionar."]
+			id: "3C9CA9393884D7F9"
+			rewards: [{
+				count: 8
+				id: "43815FE7893111AC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:porkchop"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0339CCB745FD2D10"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "biomancy:digester"
+				}
+				type: "item"
+			}]
+			title: "Digeridor"
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C08ADB6F0DBF4CF"]
+			description: ["Con la &o&ev&r&r se puede seleccionar que suero usar de los disponibles en el inventario, con &o&eclick derecho&r&r se inyecta otros mobs o jugadores y con &o&eshift+click derecho&r&r se inyecta a uno mismo."]
+			id: "2A37E43EC2BB8347"
+			rewards: [
+				{
+					id: "4A643D405D844001"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "biomancy:absorption_boost"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "785B75A9AC6AD8FF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "biomancy:nutrient_paste"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4452648B275FD685"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "biomancy:injector"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2C08ADB6F0DBF4CF"]
+			description: ["Pueden usarse en las dos manos. Tienen daño decente y ataque bastante rápido, no tienen durabilidad sino que usan &2nutrientes&r. Al matar mobs se carga un &4medidor de sangre&r, cuando haya &4sangre&r suficiente con la &o&ev&r&r se puede cambiar al modo despierto, el cual aumenta el daño y consume el &4medidor de sangre&r."]
+			id: "771C491205381916"
+			rewards: [{
+				count: 16
+				id: "29672114761F8DBE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "biomancy:nutrient_paste"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "36C61431C87AE6C9"
+				item: {
+					Count: 2
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "biomancy:ravenous_claws"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Garras Voraces"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2C08ADB6F0DBF4CF"]
+			description: ["Está más o menos al nivel del hierro, pero no tienen durabilidad, sino que usa &2nutrientes&r y da resistencia a efectos dañinos."]
+			id: "26EBBCDD77E60F2C"
+			rewards: [
+				{
+					count: 32
+					id: "47E79DEACBF7B8FE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "6E9B86D5CF2048A4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "biomancy:nutrient_paste"
+					}
+					type: "item"
+				}
+				{
+					id: "31200389C28D86DC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "2D50DE085C0DFA70"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "biomancy:acolyte_armor_helmet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7CD795D6A9E972D0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "biomancy:acolyte_armor_chestplate"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2ADE7A595CD5EA72"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "biomancy:acolyte_armor_leggings"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "41646E7D5F0574D0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "biomancy:acolyte_armor_boots"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "7D3FF4A6F50BFAE1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "biomancy:thorn_shield"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Armadura de Acólito"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2C08ADB6F0DBF4CF"]
+			description: [
+				"No tiene durabilidad sino que usa &2nutrientes&r. Al tenerla en la mano por 10 segundos recarga &aácido&r. Con la &o&ev&r&r se puede cambair entre modos."
+				""
+				"&9Sable:&r Con el &o&eclick derecho&r&r se recubre la hoja con &aácido&r por los siguientes 10 segundos."
+				""
+				"&9Pistola:&r Con el &o&eclick derecho&r&r dispara un proyectil de &aácido&r en arco que corroe a lo que alcance."
+			]
+			id: "537039ACB96B64DB"
+			rewards: [{
+				count: 16
+				id: "0E64058927437045"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "biomancy:nutrient_paste"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "088750B06060316B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "biomancy:caustic_gunblade"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Sable-Pistola Cáustico"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C9CA9393884D7F9"]
+			description: ["Son relativamente fáciles de hacer y son una buena fuente de comida."]
+			id: "29D923E8D14FB1D5"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "3834E2D9549B7AAE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "648066747B234B81"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "biomancy:nutrient_bar"
+				}
+				type: "item"
+			}]
+			title: "Barras de nutrientes"
+			x: 6.0d
+			y: 2.0d
+		}
+	]
+	title: "Biomancy"
+}

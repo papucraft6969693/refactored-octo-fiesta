@@ -1,0 +1,455 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "misiones"
+	group: "2EF426A63DC9F86C"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "domesticationinnovation:deed_of_ownership"
+	}
+	id: "345BA7102444D712"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			id: "2C9EC4F3118926AF"
+			rewards: [
+				{
+					count: 64
+					id: "538478F84A6BEE32"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "fancymenu:textures/contextmenu/context_menu_tooltip.png"
+						}
+					}
+					id: "0DC47BB588566318"
+					table_id: 6389696131270458106L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:zombie"
+				id: "0DFCA60A4FF03EBD"
+				type: "kill"
+				value: 50L
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			id: "324AA03A231FBC5A"
+			rewards: [
+				{
+					count: 64
+					id: "474E512CDB23C89A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "fancymenu:textures/contextmenu/context_menu_tooltip.png"
+						}
+					}
+					id: "49E085A7226C76CA"
+					table_id: 6389696131270458106L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:skeleton"
+				id: "79A0E087BD5425AA"
+				type: "kill"
+				value: 50L
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			id: "18C05FF6435B5183"
+			rewards: [
+				{
+					count: 64
+					id: "1D57B6504116A8A4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "fancymenu:textures/contextmenu/context_menu_tooltip.png"
+						}
+					}
+					id: "2F90D7107659BBB6"
+					table_id: 6389696131270458106L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:creeper"
+				id: "22A93BD980B54B56"
+				type: "kill"
+				value: 50L
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			description: ["Se iran cambiando las misiones de vez en cuando."]
+			id: "54751DFF2BFAA271"
+			rewards: [
+				{
+					id: "646E529ECB68661F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "alexsmobs:stink_ray"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/summon papucraft:doxeo"
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "alexsmobs:textures/entity/rainbow_jelly_overlays/glint_weezer.png"
+						}
+					}
+					id: "657B329260E866B9"
+					title: ":)"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "2DC9E81824203749"
+				title: "Información"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "0B5F6FB5B99F4400"
+			rewards: [
+				{
+					count: 64
+					id: "75619126B2621DFB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "fancymenu:textures/contextmenu/context_menu_tooltip.png"
+						}
+					}
+					id: "0CD9F1D9B848A121"
+					table_id: 6389696131270458106L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:spider"
+				id: "42452D33C787F2E4"
+				type: "kill"
+				value: 50L
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "quark:dark_oak_chest"
+			}
+			id: "7C360A6AD9F08EA8"
+			rewards: [
+				{
+					count: 64
+					id: "60264639B471C611"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "fancymenu:textures/contextmenu/context_menu_tooltip.png"
+						}
+					}
+					id: "3157565DC1686D7A"
+					table_id: 6389696131270458106L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "lootr:100loot"
+				criterion: ""
+				id: "2683DC9E9087A690"
+				type: "advancement"
+			}]
+			title: "Abrir cofres"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "07D346BD9E3D8DE6"
+			rewards: [{
+				id: "34636A71CA4F01A3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "35EDF63BD7FF69BF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "papucraft:esencia_del_papu"
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"{image:papucraft:textures/quests/portal.png width:200 height:100 align:center}"
+				""
+				"La obsidiana del centro se coloca a lo último."
+			]
+			hide_text_until_complete: true
+			id: "61ADBB7D8AB0E410"
+			rewards: [
+				{
+					id: "2E8F251F4A222455"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					description: ""
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "papucraft:esencia_del_papu"
+					}
+					id: "1FDAC90FCACFF282"
+					title: "Como entrar a la Papu Dimensión Alterna"
+					type: "toast"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "3361798F9C61266A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "papucraft:papu_conocimiento"
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "6E7E43A7DA83709F"
+			rewards: [{
+				count: 64
+				id: "504E3C6543A4E6B3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "3C990DB2E0C77DD9"
+				item: {
+					Count: 64
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:raw_iron"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "42AFB238ED284E08"
+			rewards: [{
+				count: 64
+				id: "06D17FA495B0BAE5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "6F74BE6A52AD3A2E"
+				item: {
+					Count: 64
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:raw_gold"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "1CB7BFEAB3EC8BC7"
+			rewards: [{
+				count: 16
+				id: "65E86E4ACF8FE30E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2FD50D89E61639A9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	title: "Misiones"
+}

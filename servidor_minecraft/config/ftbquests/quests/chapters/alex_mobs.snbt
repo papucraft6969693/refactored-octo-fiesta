@@ -1,0 +1,92 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alex_mobs"
+	group: "026C07FBD0DA37DB"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "ftbchunks:textures/faces/alexsmobs/grizzly_bear.png"
+		}
+	}
+	id: "2CB484A533D45B3E"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Se crea al hacer que un mosquito carmesí chupe la sangre de un mungus con hongos distorcionados."]
+			id: "7326DCE2D617AA7A"
+			rewards: [{
+				id: "385425CF911136CE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "hexagon"
+			tasks: [{
+				entity: "alexsmobs:warped_mosco"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:warped_muscle"
+				}
+				id: "59B3C61E04363118"
+				title: "Warped Mosco"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Se invoca solatnado un &1Gusano Misterioso&r al vacío del &eEnd&r."]
+			id: "311BBDBEEBEF3054"
+			rewards: [
+				{
+					count: 5
+					id: "2A1A5F978140133B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "215EC4524B2B2E81"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "alexsmobs:mysterious_worm"
+				}
+				id: "60912C422C81D593"
+				title: "Void Worm"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+	]
+	title: "Alex Mobs"
+}

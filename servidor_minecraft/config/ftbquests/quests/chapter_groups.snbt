@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "2EF426A63DC9F86C", title: "Importante" }
+		{ id: "2276081CEF43EFAE", title: "Guías" }
+		{ id: "026C07FBD0DA37DB", title: "Jefes y mobs" }
+	]
+}

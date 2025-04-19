@@ -1,0 +1,521 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mowzies_mobs"
+	group: "026C07FBD0DA37DB"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "mowziesmobs:item/logo"
+		}
+	}
+	id: "45D75CFF75CE77BE"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Se encuentra en una aldea en las savanas. Si llevan una mascara pueden tradear la &6Bendicion del Sol&r por bloques de oro, si es que no lo matan antes."]
+			id: "4C7B14D34FCB4E16"
+			rewards: [
+				{
+					id: "192F6E4BB50E91F0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "4A3711C4B105F393"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [
+				{
+					entity: "mowziesmobs:umvuthi"
+					icon: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mowziesmobs:sol_visage"
+					}
+					id: "74A6AE8141990F3E"
+					title: "Umvuthi, el ave solar"
+					type: "kill"
+					value: 1L
+				}
+				{
+					advancement: "mowziesmobs:suns_blessing"
+					criterion: ""
+					id: "35B127940F305E0A"
+					optional_task: true
+					title: "Recibir la Bendición del Sol"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			description: ["Aparecen en junglas. Pueden soltar semillas al morir que se pueden plantar y alimentar con carne hasta que crezca en un Foliaath adulto, aunque sigue siendo hostil."]
+			id: "70F91C940562F7EB"
+			optional: true
+			rewards: [{
+				count: 5
+				id: "7A01D2353632168B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mowziesmobs:foliaath"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mowziesmobs:foliaath_seed"
+				}
+				id: "16C7C23D48DF6B66"
+				title: "Foliaath"
+				type: "kill"
+				value: 5L
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			description: ["Se encuentra en una estructura bajo tierra."]
+			id: "61445FF0B06B40A6"
+			rewards: [
+				{
+					count: 10
+					id: "301BC36187E42392"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2E89BFF72DC58505"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mowziesmobs:wrought_helmet"
+				}
+				id: "04B4AB7FE0E2F3A4"
+				title: "Ferrous Wroughtnaut"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			description: ["Se encuentra en biomas fríos."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "mowziesmobs:ice_crystal"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "535070BF7045C816"
+			rewards: [
+				{
+					count: 10
+					id: "44CB29507BC66AE2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "6CE1CF22F3EE7C10"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "09DEC61624E423AB"
+				title: "Frostmaw"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			description: ["Se encuentra en el monasterio. Matarlo no da nada bueno, así que completen su desafío."]
+			id: "18ED1D6FF2500024"
+			rewards: [
+				{
+					id: "6A0043AAC4B88D93"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "4A0BF4472EA665EF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "37D628CE34DADA08"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mowziesmobs:earthrend_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Tongbi, el escultor"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			description: ["Aparecen en biomas de montaña. Pueden solar dientes con los que se pueden hacer dagas venenosas."]
+			id: "0CA78F309249A6C5"
+			optional: true
+			rewards: [{
+				count: 5
+				id: "55DB5992A5C351EC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "mowziesmobs:naga"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "mowziesmobs:naga_fang"
+				}
+				id: "4A45AC266EC7F7DA"
+				title: "Naga"
+				type: "kill"
+				value: 5L
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4C7B14D34FCB4E16"]
+			description: ["Consigue cada una de las mascaras de los Umvuthana para invocarlos y tener un ejercito portatil."]
+			id: "0D09C9F5A26420AA"
+			rewards: [{
+				count: 32
+				id: "128C17D34A9A59BE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "12E9E17C2956F5D0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mowziesmobs:umvuthana_mask_fury"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61BA87595BC7F19A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mowziesmobs:umvuthana_mask_fear"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "74B7305B48B7DFE5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mowziesmobs:umvuthana_mask_rage"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A7E60BD5BDD4857"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mowziesmobs:umvuthana_mask_bliss"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72C3543E1810D75B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mowziesmobs:umvuthana_mask_misery"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "13304EFB0B3A13AB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mowziesmobs:umvuthana_mask_faith"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ejercito Personal"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["18ED1D6FF2500024"]
+			description: ["Consige el set completo de geomante"]
+			id: "1AD70376941D42C0"
+			rewards: [{
+				count: 32
+				id: "329FB94F08360463"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:cog"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2F9F4F924177793D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mowziesmobs:geomancer_beads"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "469DE927074DBDA4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mowziesmobs:geomancer_robe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E9567941C3570D1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mowziesmobs:geomancer_belt"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07618765DDB7DE9D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mowziesmobs:geomancer_sandals"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "140DA941DA8CD6F7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "mowziesmobs:sculptor_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Geomante"
+			x: 3.0d
+			y: -1.0d
+		}
+	]
+	title: "Mowzies Mobs"
+}

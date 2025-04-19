@@ -1,0 +1,392 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "celestisynth"
+	group: "2276081CEF43EFAE"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "celestisynth:solaris"
+		tag: {
+			Damage: 0
+			csController: { }
+		}
+	}
+	id: "3B11099EC18E3626"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Se utiliza para fabricar todas las armas del mod. Usa &9Celestial Cores&r o &bHeated Celestial Cores&r como combustible."]
+			id: "4974281DB1D206AD"
+			rewards: [
+				{
+					id: "6E7544C37506AEB7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "celestisynth:supernal_netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "3D6AE3C6E3CD3516"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0A8FF585678B89E0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "425CF0765DA01813"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:starlit_factory"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4974281DB1D206AD"]
+			description: ["{image:papucraft:textures/quests/celestisynth1.png width:161 height:74 align:center}"]
+			id: "1E2AAFC586274C4C"
+			rewards: [{
+				id: "2FDB2D8AE395C180"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "17143185EB08DD4C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:solaris"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4974281DB1D206AD"]
+			description: ["{image:papucraft:textures/quests/celestisynth2.png width:161 height:74 align:center}"]
+			id: "418C75214B0E4E53"
+			rewards: [{
+				id: "69C8E20C75A73A90"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "3AD397221ED72B33"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:crescentia"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4974281DB1D206AD"]
+			description: ["{image:papucraft:textures/quests/celestisynth3.png width:161 height:74 align:center}"]
+			id: "79A911EF4A6BC340"
+			rewards: [{
+				id: "2C35B7B42F3884DE"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "38CD5D8DC6BA3D06"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:breezebreaker"
+					tag: {
+						Damage: 0
+						csController: { }
+						csExtras: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4974281DB1D206AD"]
+			description: ["{image:papucraft:textures/quests/celestisynth4.png width:161 height:74 align:center}"]
+			id: "55E9737F4950D8F0"
+			rewards: [{
+				id: "361B4D8D3EB141F1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "2E5CDF393348E2AA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:poltergeist"
+					tag: {
+						Damage: 0
+						csController: { }
+						csExtras: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4974281DB1D206AD"]
+			description: ["{image:papucraft:textures/quests/celestisynth5.png width:161 height:74 align:center}"]
+			id: "261C249AD7E24472"
+			rewards: [{
+				id: "6F1D7E58076CA6C7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "2CDAB870CE70592D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:aquaflora"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4974281DB1D206AD"]
+			description: ["{image:papucraft:textures/quests/celestisynth6.png width:161 height:74 align:center}"]
+			id: "2FFC108A7BAFD0A4"
+			rewards: [{
+				count: 2
+				id: "1CCE64E7A3A9342E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "2750AEBC886C659C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:rainfall_serenity"
+					tag: {
+						Damage: 0
+						csExtras: {
+							cs.pull: 0.0f
+							cs.pulling: 0.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4974281DB1D206AD"]
+			description: ["{image:papucraft:textures/quests/celestisynth7.png width:161 height:74 align:center}"]
+			id: "19B5A7AB010C1B42"
+			rewards: [{
+				id: "4D67C93CAD38FE2D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "589E8994D480D8E5"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:frostbound"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4974281DB1D206AD"]
+			description: ["{image:papucraft:textures/quests/celestisynth8.png width:161 height:74 align:center}"]
+			id: "61EF068A15B226C6"
+			rewards: [{
+				count: 2
+				id: "45DA64DD838E9CA0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "0986F1FD151ECEE7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "celestisynth:keres"
+					tag: {
+						Damage: 0
+						csController: {
+							cs.keresStack: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+	]
+	title: "Celestisynth"
+}

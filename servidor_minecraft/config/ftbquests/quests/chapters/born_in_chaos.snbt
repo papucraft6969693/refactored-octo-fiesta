@@ -1,0 +1,217 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "born_in_chaos"
+	group: "026C07FBD0DA37DB"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "born_in_chaos_v1:nightmare_stalker_skull"
+	}
+	id: "11CEE66252318FA5"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1C349232FF2DBCCF"]
+			description: ["Se invoca dando &o&eclick derecho&r&r con un Elixir de Transmutación en una Calabaza Malvada Infernal."]
+			id: "1BB57BFBA6343A74"
+			rewards: [
+				{
+					count: 5
+					id: "6BEA448387881555"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "2319AE7DDCC1C2C7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "born_in_chaos_v1:pumpkin_lord"
+				criterion: ""
+				id: "3C235D7829E4BA88"
+				title: "Lord Pumpkinhead"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: ["Aparece aleatoriamente desde el día 10 en biomas fríos."]
+			id: "2D9C3C3D032DD125"
+			invisible: true
+			rewards: [
+				{
+					count: 3
+					id: "38FF8A40BFFEAAD0"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "709835F2E9709162"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "born_in_chaos_v1:krampus"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:krampuss_bag"
+				}
+				id: "0FB75311ED3884F6"
+				title: "Krampus"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: ["Se invoca rompiendo una calabaza especial rodeada de velas."]
+			id: "1C349232FF2DBCCF"
+			rewards: [
+				{
+					count: 3
+					id: "434F59339C504F25"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "70FAD305AFE2636D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "born_in_chaos_v1:pumpkin_sir"
+				criterion: ""
+				id: "5947E70BACA7B11E"
+				title: "Sir Pumpkinhead"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Aparece aleatoriamente desde el día 10."]
+			id: "35C01EA2AD665A7F"
+			rewards: [
+				{
+					count: 3
+					id: "4EC980588925A8CD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "56239A1FCBBB4198"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "born_in_chaos_v1:dark_creator"
+				criterion: ""
+				id: "183AF21315FE6391"
+				title: "Misionero"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			description: ["Aparece aleatoriamente desde la noche 10. Aparece disfrazado y sigue al jugador, cuando ataco o recibe daño se quita el disfraz, al atacar roba vida."]
+			id: "09B9E1D207D5F35F"
+			rewards: [
+				{
+					count: 3
+					id: "4857CBF80FE430E4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "4F87D768C4DD0E8C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				advancement: "born_in_chaos_v1:horror_underthe_mantle"
+				criterion: ""
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:lifestealer_skull"
+				}
+				id: "6F20328E8102DE82"
+				title: "Lifestealer"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+	]
+	title: "Born in Chaos"
+}

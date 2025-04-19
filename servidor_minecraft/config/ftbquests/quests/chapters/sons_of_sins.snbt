@@ -1,0 +1,545 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sons_of_sins"
+	group: "026C07FBD0DA37DB"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "sons_of_sins:heart"
+	}
+	id: "3A966D62CAFDDF77"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5F47CD58B2ACDCC3"]
+			description: ["&o\"&4Pereza&r, lento, pero su ataque te enviará a bailar vals para que haya más tiempo para descansar.\"&r"]
+			id: "5489CA6A327A95B3"
+			rewards: [
+				{
+					count: 5
+					id: "242F18D38B2573C2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "2D0E324C4BA002B2"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "2719E30D080702E2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "sons_of_sins:walking_bed"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 1
+						}
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sons_of_sins:puppet_of_strife"
+					tag: {
+						Inventory: {
+							Items: [ ]
+							Size: 1
+						}
+					}
+				}
+				id: "1BE6568BB4FBE6EC"
+				title: "Pereza"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Walking Bed"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5F47CD58B2ACDCC3"]
+			description: ["&o\"&4Ira&r, él no quiere lo mismo que sus amigos, él no quiere purificar el mundo, él quiere vengarlo.\"&r"]
+			id: "4ECA235EF2C8BEBE"
+			rewards: [
+				{
+					count: 5
+					id: "0130C917FC61342A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "745A65E6ABBC5C92"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "68DA2C489D24525C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "sons_of_sins:butcher"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sons_of_sins:butcher_cleaver"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "787C6F61E2ECA7D6"
+				title: "Ira"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Butcher"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F47CD58B2ACDCC3"]
+			description: ["&o\"&4Gula&r, su ataque y salud aumenta cada vez que mata, tiene hambre de poder, su hambre nunca será saciada.\"&r"]
+			id: "008B9EB4F545D03C"
+			rewards: [
+				{
+					count: 5
+					id: "05D9B3241624269E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "7FDAEA51069ACB60"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "3D2B2F414D2229AD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "sons_of_sins:wistiver"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sons_of_sins:wistivers_jaws"
+					tag: { }
+				}
+				id: "744A59C3E59AF6FE"
+				title: "Gula"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Wistiver"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F47CD58B2ACDCC3"]
+			description: ["&o\"&4Orgullo&r, nunca te suelta, su velocidad te dejará sin palabras, débil pero vivaz, gripe en su punto y sabrá hacerte un bocado.\"&r"]
+			id: "6D12199BDE4DC257"
+			rewards: [
+				{
+					count: 5
+					id: "3C61C04C9DDD309F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "42BE36DA6EC470DF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "557889A6BD37B1DF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "sons_of_sins:prowler"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sons_of_sins:hand_of_riot"
+				}
+				id: "42ADACD85D558C90"
+				title: "Orgullo"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Prowler"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F47CD58B2ACDCC3"]
+			description: ["&o\"&4Envidia&r, al estar celoso de sus amigos, hizo una prótesis cibernética, que lamentablemente solo lo frena en comparación con sus hermanos.\"&r"]
+			id: "3C4115791D495B21"
+			rewards: [
+				{
+					count: 5
+					id: "6F8678742FC371C3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "7D6FC9859C81CCC3"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "11BDC8BBD8BBABB1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "sons_of_sins:kelvin"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sons_of_sins:ether_engine"
+				}
+				id: "15C85FA190BB2A78"
+				title: "Envidia"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kelvin"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F47CD58B2ACDCC3"]
+			description: ["&o\"&4Lujuria&r, evitará al máximo el ataque físico, prefiriendo mirarte con su mirada, lejos en el aire, a contemplarte solo a ti.\"&r"]
+			id: "08B8AD054DFB52E3"
+			rewards: [
+				{
+					count: 5
+					id: "1F19A09E9D85BD75"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "0331697538CAF8D6"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "376BFD3B469F3633"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "sons_of_sins:curse"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sons_of_sins:cursed_head"
+				}
+				id: "1CA625EE00A6E41F"
+				title: "Lujuria"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Curse"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F47CD58B2ACDCC3"]
+			description: ["&o\"&4Codicia&r, nunca sale de su charco, pero es la más robusta de todas las criaturas, se mantendrá a salvo lanzándote bolas de sangre coagulada.\"&r"]
+			id: "4669A65DAC53435B"
+			rewards: [
+				{
+					count: 5
+					id: "7A90556BC646D6F8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "46AECECDD6192FB9"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "329DD99E930E53A3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "sons_of_sins:blud"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "sons_of_sins:touch_of_greed"
+				}
+				id: "177FF16644C883C7"
+				title: "Codicia"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Blüd"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			description: ["Todos los &4pecados&r aparecen aleatoriamente cuando se sumerge un jugador o aldeano en &csangre&r por mucho tiempo. La armadura de &eRemanente&r resiste los ataques de estos, entonces es recomendable usarla si no se quieren morir en 2 segundos."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "sons_of_sins:heart"
+			}
+			id: "5F47CD58B2ACDCC3"
+			tasks: [
+				{
+					id: "119F3932A4C67F36"
+					type: "checkmark"
+				}
+				{
+					id: "4E3EB52D3EB6B537"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "sons_of_sins:remnant_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0DBE93B3A293C5BB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "sons_of_sins:remnant_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "49130E331A66E2B8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "sons_of_sins:remnant_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "156773E55F852A9F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "sons_of_sins:remnant_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Pecados"
+			x: 0.0d
+			y: 1.0d
+		}
+	]
+	title: "Sons of Sins"
+}

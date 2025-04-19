@@ -1,0 +1,50 @@
+{
+	id: "51D864C2F2C9F28F"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:night_vision"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:splash_potion"
+				tag: {
+					Potion: "minecraft:night_vision"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:lingering_potion"
+				tag: {
+					Potion: "minecraft:night_vision"
+				}
+			}
+		}
+	]
+	title: "Visión"
+}

@@ -1,0 +1,665 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end_remastered"
+	group: "2276081CEF43EFAE"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "minecraft:ender_eye"
+	}
+	id: "45FC06BF2461832B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Ahora para llegar al end se necesitan 12 ojos diferentes especiales, se encuentran en estructuras, matando mobs o crafteando."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:ender_eye"
+			}
+			id: "70C294EC7A3C2C3F"
+			rewards: [{
+				id: "112DE48601359414"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:ender_eye"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "End con pasos extra"
+			tasks: [{
+				id: "71AA9DF9B7309F7C"
+				title: "End Remastered"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70C294EC7A3C2C3F"]
+			description: ["Ha visto muchos guerreros ahogarse en las profundidades del mar."]
+			id: "360616C8325B5E99"
+			rewards: [{
+				id: "053C34A72792EF3A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			subtitle: "Se ontiene al matar al Guardian Anciano"
+			tasks: [{
+				id: "02630CB42CAC2847"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ojo Guardian"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["70C294EC7A3C2C3F"]
+			description: ["Sin este ojo, el Evoker no tiene poder."]
+			id: "554C95642422073D"
+			rewards: [{
+				id: "3979A719CE7BD365"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			subtitle: "Soltado por Evokers"
+			tasks: [{
+				id: "3173EB0FEF52CB0F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ojo Mágico"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70C294EC7A3C2C3F"]
+			description: ["A presenciado destrucción. Quizás también fue testigo de la desaparición de tus cosas."]
+			id: "52D348BE99CFA924"
+			rewards: [{
+				id: "442522DF04D5CD7A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			subtitle: "Soltado por el Wither"
+			tasks: [{
+				id: "0AC9B1B4F0DE1075"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ojo de Wither"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["70C294EC7A3C2C3F"]
+			description: ["Se cree que esta pupila ha visto las antiguas recetas de pociones que se perdieron en el tiempo."]
+			id: "4A134D43F955867D"
+			rewards: [{
+				id: "70CE917AA877B277"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			subtitle: "Se craftea usando la pupila de bruja"
+			tasks: [{
+				id: "036138A4DDE652DB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ojo de Bruja"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70C294EC7A3C2C3F"]
+			description: ["Recuerdos de vidas pasadas de aquellos que viven en muerte."]
+			id: "145638EC725F7EC1"
+			rewards: [{
+				id: "1B2DA6A62DBB9619"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			subtitle: "Se craftea usando una Alma no muerta"
+			tasks: [{
+				id: "37832E7794D715CA"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ojo No Muerto"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["70C294EC7A3C2C3F"]
+			description: ["Aquellos que siguieron este ojo nunca fueron vistos otra vez; los rumores dicen que encontraron la gran ciudad de Atlantis, o perdieron su camino tratando."]
+			id: "32B721D30CB963D1"
+			rewards: [{
+				id: "10260679A0E9510E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			subtitle: "Se craftea usando items acuaticos"
+			tasks: [{
+				id: "41EA3D79ACC46246"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ojo Exótico"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["70C294EC7A3C2C3F"]
+			description: ["No hay información de este ojo."]
+			id: "6EC427CFD4A11BFE"
+			rewards: [{
+				id: "6375689C3E4B1C1C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			subtitle: "Tiene una pequeña probabilidad de obtenerlo al encantar"
+			tasks: [{
+				id: "23CD32919F9AE20D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "endrem:cryptic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ojo Críptico"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["70C294EC7A3C2C3F"]
+			description: ["Los piratas dicen que le dió vista al legendario Perla Negra."]
+			id: "6D276657E3F03B43"
+			rewards: [{
+				id: "0162BFED4C065A1E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			subtitle: "Se encuentra en Tesoros Enterrados"
+			tasks: [{
+				id: "3D0F07B2B4A08FD7"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ojo Negro"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["70C294EC7A3C2C3F"]
+			description: ["Uno de los artefactos dejados por los Iceologer antes de que todos desaparecieran del mundo."]
+			id: "0614701B5B7FD8CF"
+			rewards: [{
+				id: "7FA854581B0BA21D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			subtitle: "Se encuentra en Igloos"
+			tasks: [{
+				id: "1C5D10A0C339E859"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ojo Frío"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["70C294EC7A3C2C3F"]
+			description: ["El ojo de un rey codicioso que se desvaneció en soledad. Las leyendas dicen que le dará fortuna infinita a su dueño."]
+			id: "6A900F2D5C80F215"
+			rewards: [{
+				id: "137A63F2BAF6C044"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			subtitle: "Se encuentra en Outposts de Pillagers"
+			tasks: [{
+				id: "239D21AE6889BAC1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ojo Corrupto"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["70C294EC7A3C2C3F"]
+			description: ["Se dice que fue forjado por los primeros herreros del tiempo."]
+			id: "768A971614D507D6"
+			rewards: [{
+				id: "17677A86523518D0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			subtitle: "Se encuentra en Mineshafts"
+			tasks: [{
+				id: "1E7D3B91E1389A88"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ojo Perdido"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["70C294EC7A3C2C3F"]
+			description: ["Fue perdido por un demonio en la batalla entre el Aether y el Nether."]
+			id: "5E5E8A46CF5A4B5B"
+			rewards: [{
+				id: "0A6B883FABCB0624"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			subtitle: "Se encuentra en Fortalezas"
+			tasks: [{
+				id: "3BBAF71DCB216608"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ojo del Nether"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["70C294EC7A3C2C3F"]
+			description: ["Las leyendas cuentan que este ojo perteneció a uno de los grandes gusanos de arena."]
+			id: "3C63FFA6DF583478"
+			rewards: [{
+				id: "3F69576655648E25"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			subtitle: "Se encuentra en Templos del Desierto"
+			tasks: [{
+				id: "13264698AB8CA23B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ojo Viejo"
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["70C294EC7A3C2C3F"]
+			description: ["Este ojo se cree le dió a nuestros ancestros el conocimiento de la Redstone."]
+			id: "6EA2A2CA0151607E"
+			rewards: [{
+				id: "2E7B414395CD9B92"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			subtitle: "Se encuentra en Templos de Jungla"
+			tasks: [{
+				id: "68AE1FE162360612"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ojo Pícaro"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["70C294EC7A3C2C3F"]
+			description: ["Un poderoso pero destructivo artefacto; los Piglins juraron protegerlo con sus vidas."]
+			id: "6E8B0B082116E726"
+			rewards: [{
+				id: "71186B95CACC0D8B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			subtitle: "Se encuentra en cofres de Bastiones"
+			tasks: [{
+				id: "0EEACAFD93AEFA01"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ojo Maldito"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["70C294EC7A3C2C3F"]
+			description: ["Un talismo divino que dice proteger a su dueño de la mala suerte."]
+			id: "343B9A18761D6311"
+			rewards: [{
+				id: "39B2E425E61A0834"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:sun"
+				}
+				type: "item"
+			}]
+			subtitle: "Compralo de un clerigo maestro"
+			tasks: [{
+				id: "6E68CCA5ED72D123"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Ojo Malvado"
+			x: 1.0d
+			y: 3.0d
+		}
+	]
+	title: "End Remastered"
+}

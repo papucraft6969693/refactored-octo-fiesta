@@ -1,0 +1,544 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "inicio"
+	group: "2EF426A63DC9F86C"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "supplementaries:globe"
+	}
+	id: "11D42586931F3FCF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Aquí hay información básica de los mods "]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "supplementaries:globe"
+			}
+			id: "226EF1B52BDE3D2B"
+			rewards: [
+				{
+					id: "1EC2B8EB7EFD9FED"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:cookie"
+					}
+					type: "item"
+				}
+				{
+					id: "1E5EC45E6AE2D077"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "createrailwaysnavigator:navigator"
+					}
+					type: "item"
+				}
+				{
+					id: "2271A82A938289D1"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:red_card"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "009BE52C1D938FD4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "1F9BEAD715B76E3B"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "supplementaries:sack"
+						tag: {
+							BlockEntityTag: {
+								Items: [
+									{
+										Count: 1b
+										ForgeCaps: {
+											"celestisynth:celestisynthitemstackcapabilities": {
+												cs.aquaSkin: 0
+											}
+										}
+										Slot: 0b
+										id: "minecraft:leather_helmet"
+										tag: {
+											Damage: 0
+										}
+									}
+									{
+										Count: 1b
+										ForgeCaps: {
+											"celestisynth:celestisynthitemstackcapabilities": {
+												cs.aquaSkin: 0
+											}
+										}
+										Slot: 1b
+										id: "minecraft:leather_chestplate"
+										tag: {
+											Damage: 0
+										}
+									}
+									{
+										Count: 1b
+										ForgeCaps: {
+											"celestisynth:celestisynthitemstackcapabilities": {
+												cs.aquaSkin: 0
+											}
+										}
+										Slot: 2b
+										id: "minecraft:leather_leggings"
+										tag: {
+											Damage: 0
+										}
+									}
+									{
+										Count: 1b
+										ForgeCaps: {
+											"celestisynth:celestisynthitemstackcapabilities": {
+												cs.aquaSkin: 0
+											}
+										}
+										Slot: 3b
+										id: "minecraft:leather_boots"
+										tag: {
+											Damage: 0
+										}
+									}
+									{
+										Count: 1b
+										ForgeCaps: {
+											"celestisynth:celestisynthitemstackcapabilities": {
+												cs.aquaSkin: 0
+											}
+										}
+										Slot: 4b
+										id: "minecraft:stone_axe"
+										tag: {
+											Damage: 0
+										}
+									}
+									{
+										Count: 1b
+										ForgeCaps: {
+											"celestisynth:celestisynthitemstackcapabilities": {
+												cs.aquaSkin: 0
+											}
+										}
+										Slot: 5b
+										id: "minecraft:stone_pickaxe"
+										tag: {
+											Damage: 0
+										}
+									}
+									{
+										Count: 64b
+										ForgeCaps: {
+											"celestisynth:celestisynthitemstackcapabilities": {
+												cs.aquaSkin: 0
+											}
+										}
+										Slot: 6b
+										id: "minecraft:bread"
+									}
+								]
+								id: "minecraft:shulker_box"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2491DA5563F064FC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "waystones:waystone"
+					}
+					type: "item"
+				}
+				{
+					id: "3B1B4E152C8888D2"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 4.0d
+			subtitle: "Hola :v"
+			tasks: [{
+				id: "306FA7A6869B36F9"
+				type: "checkmark"
+			}]
+			title: "Inicio"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["226EF1B52BDE3D2B"]
+			description: ["Pueden reclamar chunks para que no les rompan las cosas."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:map"
+			}
+			id: "0D78997E1D93E742"
+			rewards: [{
+				id: "7EF500DFE8268A04"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:cookie"
+				}
+				type: "item"
+			}]
+			subtitle: "Estoy en tu cesped nevercracker :v"
+			tasks: [{
+				id: "303F8B97B3237F28"
+				title: "FTBChunks"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["226EF1B52BDE3D2B"]
+			description: ["Guías, misiones y recompensas extra."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "ftbquests:book"
+			}
+			id: "3F837A5D47DAD64B"
+			rewards: [{
+				id: "171FF94EAC8546CD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:cookie"
+				}
+				type: "item"
+			}]
+			subtitle: "Lo esta usando ahora mismo :v"
+			tasks: [{
+				id: "37B559802FCCF791"
+				title: "FTBQuests"
+				type: "checkmark"
+			}]
+			title: "FTBQuests"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["226EF1B52BDE3D2B"]
+			description: ["Ahora para llegar al end se necesitan 12 ojos diferentes especiales, se encuentran en estructuras, matando mobs o crafteando."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:ender_eye"
+			}
+			id: "4C922264C38D6BB7"
+			rewards: [{
+				id: "07AAD70C2CAECFFC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:cookie"
+				}
+				type: "item"
+			}]
+			subtitle: "End con pasos extra"
+			tasks: [{
+				id: "3BE914602DF64011"
+				title: "End Remastered"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["226EF1B52BDE3D2B"]
+			description: ["Cambia como funcionan las armas y tiene animaciones."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "020AE5E50A1FF800"
+			rewards: [{
+				id: "0BE2F8253E053007"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:cookie"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C4B43227F2EB8C2"
+				title: "Better Combat"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["226EF1B52BDE3D2B"]
+			description: ["Con el Ctrl pueden correr y hacer parkour."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:leather_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1161C65BF7738D3A"
+			rewards: [{
+				id: "495B29CCE074EEF3"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:cookie"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "540BF0460B187033"
+				title: "Parcool"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["226EF1B52BDE3D2B"]
+			description: ["Tareas que se pueden repetir varias veces por recompensas."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "domesticationinnovation:deed_of_ownership"
+			}
+			id: "40222B975C2F0528"
+			rewards: [{
+				id: "6F1B3ED9D36DB387"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:cookie"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "60817FDCF5D19BDF"
+				title: "Misiones"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"r (En un inventario) - Ver crafteos"
+				"u (En un inventario) - Ver que se puede craftear con el item"
+				"r - Rodar"
+				"Ctrl - Correr"
+				"c - Agacharse (Si se va corriendo con Ctrl se desliza)"
+				"b - Abrir mochila"
+				"i - Hacer un marcador en el mapa"
+				"j - Abrir el mapa"
+				", (Coma) Abrir el menu del chat de voz"
+				"Alt Izquierdo - Pulsar para hablar por voz (Depende de como lo configuren)"
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "alexscaves:item/game_controller"
+				}
+			}
+			id: "05E9B42A03A2CC8D"
+			subtitle: "Controles por defecto si quieren los cambian"
+			tasks: [{
+				id: "344A17BD0A5D597A"
+				title: "Controles"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["226EF1B52BDE3D2B"]
+			description: ["Al morir van a perder un &ccorazón&r, hasta mínimo 3. Para recuperarlos pueden comer &6manzanas doradas&r."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "quark:textures/attribute/attack_damage.png"
+				}
+			}
+			id: "025C180246B8EDC7"
+			rewards: [{
+				id: "69B6643F284392C8"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:cookie"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "67BF6C4AD7011CB4"
+				title: "Mediumcore"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["226EF1B52BDE3D2B"]
+			description: ["En el inventario por la parte superior izquierda hay un icono que permite acceder al menú de Curios, ahí hay diferentes ranuras para objetos especiales que dan beneficios o efectos."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "curios:slot/empty_curio_slot"
+				}
+			}
+			id: "7437C87D9089073C"
+			rewards: [{
+				id: "79055520E6086581"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:cookie"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CC423B344D438A5"
+				title: "Curios"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+	]
+	title: "Inicio"
+}

@@ -1,0 +1,905 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cataclysm"
+	group: "026C07FBD0DA37DB"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "cataclysm:flame_eye"
+	}
+	id: "28D41AF3BDC04704"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Aparece en un coliseo en el &4Nether&r. Para invocarlo se deben conseguir cenizas al matar a los Revenant que aprecen en el coliseo. Se puede invocar varias veces."]
+			id: "7B092231E6FB16A4"
+			rewards: [
+				{
+					count: 5
+					id: "3D946579C082B749"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "31DF8842CB35A8FF"
+					type: "xp_levels"
+					xp_levels: 7
+				}
+				{
+					id: "66B5A9AFCF873988"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:flame_eye"
+				}
+				id: "11386E0FEFAA8DEC"
+				title: "Ignis"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: ["Aparece en una ciudad hundida en el mar. Pata invocarlo se tiene que craftear el Sacrificio Abisal y ponerlo en el altar al centro de la estructura."]
+			id: "18210761F4945695"
+			rewards: [
+				{
+					count: 4
+					id: "40679DC693D9E659"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "5E1DBC5917829AC7"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					id: "6C25E2E498B55D47"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:abyss_eye"
+				}
+				id: "70A65399E5772AB7"
+				title: "Leviathan"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			description: ["Aparce en una herrería en el &4Nether&r."]
+			id: "220F3C675AC6B1EE"
+			rewards: [
+				{
+					count: 4
+					id: "16A7C17DBD09DB22"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "29CE9A8D2DFC71CF"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+				{
+					id: "272930805A98089A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:monstrous_eye"
+				}
+				id: "3B36FC2C959235BB"
+				title: "Monstruosidad de Netherite"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			description: ["Aparece en una fortaleza del &eEnd&r."]
+			id: "7F9C7A337ED1A708"
+			rewards: [
+				{
+					count: 3
+					id: "4592F8BDB5CC4324"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "79DA74E908923D7F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4D1F68E2658A6EE8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:void_eye"
+				}
+				id: "4D9C6AF27D387B62"
+				title: "Guardian de Ender"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			description: ["Aparece en piramides gigantes en el desierto, las cuales estan llenas de trampas y un laberinto. Para despertarlo se debe usar el Collar del Desierto, que se encuentra en arena sospechosa o en cofres."]
+			id: "61542D614DA45D88"
+			rewards: [
+				{
+					count: 3
+					id: "4C97A6AB0879587F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "1C1E3FC546C63CE7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4A5D4B613BA24F01"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:desert_eye"
+				}
+				id: "7F7D2EC55368DE36"
+				title: "Remanente Antigüo"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			description: ["Aparece en una prisión helada. Se invoca interactuando con su tumba y después de derrotarlo se puede reinvocar gratis cuando la tumba se recargue."]
+			id: "606909E90F09E3DF"
+			rewards: [
+				{
+					count: 3
+					id: "489327B094539D14"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "09901699A64C382D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "442C68D3CB7BD931"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:cursed_eye"
+				}
+				id: "4200569ED87B737B"
+				title: "Maledictus"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			description: ["Aparece en una fabrica abandonada subterranea, se debe activar con una &bEstrella del Nether&r."]
+			id: "395AAEDAD9151D37"
+			rewards: [
+				{
+					count: 3
+					id: "0437A64BD0856A06"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "294CCD9CBBB0EB87"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "77A3290EDBA61D2A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:mech_eye"
+				}
+				id: "746B20B4361AE8A7"
+				title: "Harbinger"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7B092231E6FB16A4"]
+			description: ["Es irrompible y tiene efectos dependiendo de la pieza de armadura."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cataclysm:ignitium_ingot"
+			}
+			id: "1444EED45F47CC91"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "06315D85BDFA8BEF"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "72859C075FD95729"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					id: "315FCF1C6DF96F80"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:ignitium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "400045DA868E0BC6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:ignitium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E1FD79399139065"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:ignitium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C32B4792BB42ADC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:ignitium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "183341D982CE46E6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:the_incinerator"
+					}
+					type: "item"
+				}
+				{
+					id: "430FE8AB62E50FE6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:bulwark_of_the_flame"
+					}
+					type: "item"
+				}
+			]
+			title: "Ignitium"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["606909E90F09E3DF"]
+			description: ["Es más fuerte que la netherite y tiene diferentes efectos dependiendo de la pieza de armadura."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cataclysm:cursium_ingot"
+			}
+			id: "74B2A0C748BE5FAC"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "4B733913947CD2F7"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "7269087D99698EC0"
+					type: "xp_levels"
+					xp_levels: 6
+				}
+			]
+			tasks: [
+				{
+					id: "6FCE8DEB3522AFFA"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:cursium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "298CB95B2E28B8FC"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:cursium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75D1FA40285A6570"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:cursium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6324D53504ED5864"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:cursium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2261F0D40A28CEFE"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:cursed_bow"
+					}
+					type: "item"
+				}
+				{
+					id: "5BD604227B41CDC3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:soul_render"
+					}
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5F393525BB0BC29A"
+					item: {
+						Count: 2
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:the_annihilator"
+					}
+					type: "item"
+				}
+			]
+			title: "Cursium"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["61542D614DA45D88"]
+			description: ["Tienen mayor protección que la Netherite pero poca durabilidad."]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "cataclysm:koboleton_bone"
+			}
+			id: "7568645449558310"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "1F16221251E705A9"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7217E2D2558B842B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [
+				{
+					id: "069840833BFB79E3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:bone_reptile_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6912555748950828"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:bone_reptile_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bone Reptile"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["395AAEDAD9151D37"]
+			description: ["Sirve para combinar las armas que se pueden conseguir de otros jefes."]
+			id: "3264CCEDE84535D9"
+			optional: true
+			rewards: [
+				{
+					count: 6
+					id: "2E0D4EFB10C31661"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "cataclysm:witherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "509C7E38F3077428"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7171301F17C9BADF"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:mechanical_fusion_anvil"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			description: ["Aparece en Lush Caves al azar."]
+			id: "22576BB0E87FCFB9"
+			optional: true
+			rewards: [
+				{
+					id: "681ABFEE8D2D2C46"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "792CA43E571BA6B6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:amethyst_crab"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:amethyst_crab_meat"
+				}
+				id: "3B0F832B87F85B7B"
+				title: "Cangrejo de Amatista"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["22576BB0E87FCFB9"]
+			description: ["Se obtiene al colocar la carne del Cangrejo de Amatista en un altar de amatisat en la ciudad hundida. Al comerla te hace inmune a los efectos del Leviathan."]
+			id: "27CC110AFD0E45C4"
+			rewards: [{
+				count: 2
+				id: "356DE19156B740DB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "numismatics:crown"
+				}
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				id: "0EC6BC552FF61194"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "cataclysm:blessed_amethyst_crab_meat"
+				}
+				type: "item"
+			}]
+			title: "Carne de Cangrejo Amatista Bendecida"
+			x: 0.0d
+			y: 5.0d
+		}
+	]
+	title: "Cataclysm"
+}

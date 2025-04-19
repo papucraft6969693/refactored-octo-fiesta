@@ -1,0 +1,325 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "illage_an_spillage"
+	group: "026C07FBD0DA37DB"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "minecraft:textures/mob_effect/bad_omen.png"
+		}
+	}
+	id: "1CEFD5F1C9E0F96E"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Aparece como jefe en las raids. No se le puede pegar hasta que los demás illager hayan muerto."]
+			id: "166371B23AB43755"
+			rewards: [
+				{
+					count: 10
+					id: "371E5E5D37A0C839"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "50C6AB7F1F66C125"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "20FAEF887D513CAD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "illageandspillage:magispeller"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "illageandspillage:totem_of_banishment"
+				}
+				id: "7456E894B2CA8C75"
+				title: "Magispeller"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: ["Aparece como jefe en las raids. No se le puede pegar hasta que los demás illager hayan muerto."]
+			id: "5A1B7D1C2E40E722"
+			rewards: [
+				{
+					count: 10
+					id: "4A62EC7C20D552CB"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "0BA3EBAB12E5BEBA"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "1A3CE06FD191E1B4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "illageandspillage:spiritcaller"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "illageandspillage:spellbound_book"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "74E2F81A4009A13D"
+				title: "Spiritcaller"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			description: ["Aparece como jefe en las raids. No se le puede pegar hasta que los demás illager hayan muerto."]
+			id: "2931EAA4F34D1C9D"
+			rewards: [
+				{
+					count: 10
+					id: "5DDA773A66BA4411"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7E977B919B7BE7E8"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "746F2B690554248D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "illageandspillage:kill_freaky"
+				criterion: ""
+				id: "17DD35A7D9216ED1"
+				title: "Freakager"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			description: ["Protege a otros Illager cubriendolos con paja."]
+			id: "72D36B21BB133C09"
+			subtitle: "Pajas locas :v"
+			tasks: [{
+				entity: "illageandspillage:preserver"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:hay_block"
+				}
+				id: "6CF8085C5756EF55"
+				type: "kill"
+				value: 5L
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			description: ["Es como un ravager pero más débil."]
+			id: "27E698CC3BC7E733"
+			tasks: [{
+				entity: "illageandspillage:crocofang"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "biomancy:mob_fang"
+				}
+				id: "4ACE4CBFEF2149F2"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			description: ["Construye fabricas que sueltan robots pequeños que atacan."]
+			id: "7E0450963B3D396D"
+			subtitle: "Hay que mover el cacharro"
+			tasks: [{
+				entity: "illageandspillage:engineer"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:nut_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "05C2F8354D784C3A"
+				type: "kill"
+				value: 5L
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			description: ["Esta viendo Twitter y se enoja :v"]
+			id: "290F748B5C413A24"
+			tasks: [{
+				entity: "illageandspillage:twittollager"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:dispenser"
+				}
+				id: "55E68188E493464A"
+				type: "kill"
+				value: 5L
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			description: ["Tiene un lanzallamas que debe recargar después de usarlo por un tiempo."]
+			id: "5B41A88E017505C3"
+			tasks: [{
+				entity: "illageandspillage:igniter"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "134015160E112808"
+				type: "kill"
+				value: 5L
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			description: ["Solo puede recibir 1 de daño por golpe."]
+			id: "4E53866A020B6F0D"
+			subtitle: "Gigachad"
+			tasks: [{
+				entity: "illageandspillage:absorber"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "born_in_chaos_v1:skullbreaker_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "49299AA2EDFEF533"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+	]
+	title: "Illage and Spillage"
+}

@@ -1,0 +1,21 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "papu"
+	group: ""
+	id: "138EF81EC4BFEE0A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "56A14B13268DF4BA"
+		tasks: [{
+			id: "3719248501CAEE0B"
+			title: "papu"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: -0.5d
+	}]
+	title: "Papu"
+}

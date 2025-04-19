@@ -1,0 +1,50 @@
+{
+	id: "3228F5BA67F7322B"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:potion"
+				tag: {
+					Potion: "irons_spellbooks:instant_mana_one"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:splash_potion"
+				tag: {
+					Potion: "irons_spellbooks:instant_mana_one"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"celestisynth:celestisynthitemstackcapabilities": {
+						cs.aquaSkin: 0
+					}
+				}
+				id: "minecraft:lingering_potion"
+				tag: {
+					Potion: "irons_spellbooks:instant_mana_one"
+				}
+			}
+		}
+	]
+	title: "Maná"
+}

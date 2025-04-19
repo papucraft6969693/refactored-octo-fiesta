@@ -1,0 +1,200 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "meet_your_fight"
+	group: "026C07FBD0DA37DB"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"celestisynth:celestisynthitemstackcapabilities": {
+				cs.aquaSkin: 0
+			}
+		}
+		id: "meetyourfight:slicers_dice"
+	}
+	id: "44B8A32373B1C8E4"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Se invoca con la Apuesta del Diablo."]
+			id: "2A074879449F0E8D"
+			rewards: [
+				{
+					count: 5
+					id: "1702F02B82ECBB09"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "7AEB4D57BB3A8C70"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "meetyourfight:dame_fortuna"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "meetyourfight:devils_ante"
+				}
+				id: "10E376776970C187"
+				title: "Dame Fortuna"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: ["Se invoca con la Campana Embrujada."]
+			id: "2CD2E1E3D5C2D450"
+			rewards: [
+				{
+					count: 5
+					id: "52A4E1980E7695F3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:crown"
+					}
+					type: "item"
+				}
+				{
+					id: "2C7A424E09AEE434"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "meetyourfight:bellringer"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "meetyourfight:haunted_bell"
+				}
+				id: "4FCF459E1CE0ACB7"
+				title: "Bellringer"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Se invoca con la Carnada para Fósiles."]
+			id: "7319993DD324A887"
+			rewards: [
+				{
+					count: 15
+					id: "7EBC93BBEA0726D4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:cog"
+					}
+					type: "item"
+				}
+				{
+					id: "4474F19C794851BD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "meetyourfight:swampjaw"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "meetyourfight:fossil_bait"
+				}
+				id: "027C62FB7E464FB4"
+				title: "Swampjaw"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: ["Se invoca con la Llave del Anochecer."]
+			id: "180C6E69037F76A1"
+			rewards: [
+				{
+					id: "5EE8F515513C5B05"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"celestisynth:celestisynthitemstackcapabilities": {
+								cs.aquaSkin: 0
+							}
+						}
+						id: "numismatics:sun"
+					}
+					type: "item"
+				}
+				{
+					id: "7C65A4D2754B2792"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "meetyourfight:rosalyne"
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "meetyourfight:dusk_key"
+				}
+				id: "544920E586597590"
+				title: "Rosalyne"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	title: "Meet Your Fight"
+}

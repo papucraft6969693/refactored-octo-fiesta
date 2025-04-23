@@ -301,6 +301,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:sunflower_plains": "2025-04-22 00:34:40 +0000",
       "minecraft:birch_forest": "2025-04-09 01:00:55 +0000",
       "minecraft:beach": "2025-04-11 01:50:05 +0000",
       "environmental:environmental:blossom_woods": "2025-04-11 01:22:20 +0000",
@@ -308,6 +309,7 @@
       "minecraft:river": "2025-04-09 00:50:37 +0000",
       "atmospheric:atmospheric:laurel_forest": "2025-04-11 01:16:31 +0000",
       "minecraft:stony_shore": "2025-04-11 01:35:28 +0000",
+      "minecraft:snowy_plains": "2025-04-22 01:05:23 +0000",
       "minecraft:dripstone_caves": "2025-04-12 00:52:21 +0000",
       "minecraft:grove": "2025-04-14 01:55:00 +0000",
       "minecraft:jagged_peaks": "2025-04-14 02:20:52 +0000",
@@ -315,6 +317,7 @@
       "minecraft:lush_caves": "2025-04-12 00:56:59 +0000",
       "environmental:environmental:pine_slopes": "2025-04-14 02:22:37 +0000",
       "minecraft:ocean": "2025-04-09 00:50:58 +0000",
+      "minecraft:jungle": "2025-04-22 00:33:25 +0000",
       "atmospheric:atmospheric:aspen_parkland": "2025-04-11 01:48:08 +0000",
       "minecraft:old_growth_birch_forest": "2025-04-11 01:50:12 +0000",
       "minecraft:meadow": "2025-04-09 01:00:45 +0000",
@@ -792,6 +795,84 @@
   "the_bumblezone:beehemoth/queen_beehemoth": {
     "criteria": {
       "created_queen_beehemoth": "2025-04-19 20:29:21 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/licowitch_tower": {
+    "criteria": {
+      "licowitch_tower": "2025-04-22 00:56:16 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/discover_candy_cavity": {
+    "criteria": {
+      "discover": "2025-04-22 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/radiant_essence": {
+    "criteria": {
+      "mussel": "2025-04-22 00:59:31 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/enter_purple_soda": {
+    "criteria": {
+      "in_purple_soda": "2025-04-22 00:59:59 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/defeat_caniac": {
+    "criteria": {
+      "killed": "2025-04-22 01:56:45 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/tame_candicorn": {
+    "criteria": {
+      "killed": "2025-04-22 01:53:50 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/caramel_apple": {
+    "criteria": {
+      "mussel": "2025-04-22 01:52:37 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/caramel": {
+    "criteria": {
+      "mussel": "2025-04-22 00:57:04 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/eat_block_of_chocolate": {
+    "criteria": {
+      "eat_block_of_chocolate": "2025-04-22 01:08:33 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/walk_on_rock_candy": {
+    "criteria": {
+      "cave_book": "2025-04-22 00:54:40 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/gingerbread_town": {
+    "criteria": {
+      "gingerbread_town": "2025-04-22 01:10:16 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/gingerbread_crumbs": {
+    "criteria": {
+      "crumbs": "2025-04-22 01:12:18 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/convert_biome": {
+    "criteria": {
+      "convert_biome": "2025-04-22 02:17:43 +0000"
     },
     "done": true
   },

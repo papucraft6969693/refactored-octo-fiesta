@@ -111,6 +111,7 @@
       "minecraft:desert": "2025-04-19 18:57:25 +0000",
       "atmospheric:atmospheric:scrubland": "2025-04-11 02:08:20 +0000",
       "minecraft:ocean": "2025-03-13 21:18:11 +0000",
+      "minecraft:jungle": "2025-04-22 00:32:38 +0000",
       "atmospheric:atmospheric:aspen_parkland": "2025-03-14 19:14:57 +0000",
       "minecraft:old_growth_spruce_taiga": "2025-04-10 02:07:23 +0000",
       "minecraft:flower_forest": "2025-03-13 21:04:33 +0000",
@@ -1295,9 +1296,58 @@
   },
   "productivebees:husbandry/bee_cage/quartz_nest/catch_crystalline_bee/breed_iron_bee/breed_all_productive_bees": {
     "criteria": {
-      "redstone_bee": "2025-04-19 22:22:37 +0000"
+      "redstone_bee": "2025-04-19 22:22:37 +0000",
+      "lapis_bee": "2025-04-22 02:01:12 +0000"
     },
     "done": false
+  },
+  "alexscaves:alexscaves/radiant_essence": {
+    "criteria": {
+      "mussel": "2025-04-22 00:56:17 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/enter_purple_soda": {
+    "criteria": {
+      "in_purple_soda": "2025-04-22 00:59:51 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/defeat_caniac": {
+    "criteria": {
+      "killed": "2025-04-22 00:58:45 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/caramel": {
+    "criteria": {
+      "mussel": "2025-04-22 01:09:00 +0000"
+    },
+    "done": true
+  },
+  "plenty_of_golems:that_isnt_any_ordinary_bell": {
+    "criteria": {
+      "that_isnt_any_ordinary_bell_0": "2025-04-22 00:42:42 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/gingerbread_town": {
+    "criteria": {
+      "gingerbread_town": "2025-04-22 01:10:30 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/gingerbread_crumbs": {
+    "criteria": {
+      "crumbs": "2025-04-22 01:12:28 +0000"
+    },
+    "done": true
+  },
+  "alexscaves:alexscaves/convert_biome": {
+    "criteria": {
+      "convert_biome": "2025-04-22 02:17:43 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }

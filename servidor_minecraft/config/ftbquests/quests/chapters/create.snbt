@@ -447,6 +447,20 @@
 				id: "create:brass_ingot"
 			}
 			id: "715BDF6986633033"
+			rewards: [{
+				count: 16
+				id: "65082B1C288EE507"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"celestisynth:celestisynthitemstackcapabilities": {
+							cs.aquaSkin: 0
+						}
+					}
+					id: "create:brass_ingot"
+				}
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 16L
